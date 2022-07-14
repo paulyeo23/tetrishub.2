@@ -4573,6 +4573,7 @@ let events = [
 ];
 events.forEach((event) => {
   event.versionId = 1;
+  event.editionId = 1;
 });
 
 module.exports = {

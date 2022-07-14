@@ -20,5 +20,7 @@ export const Info = async () => {
     PlayerSeed: await db.PlayerSeed.findAll(),
     Organisation: await db.Organisations.findAll(),
     Series: await db.Series.findAll(),
+    PinnedEvents: await db.PinnedEvents.findAll(),
+    Versions: await db.Versions.findAll(),
   };
 };

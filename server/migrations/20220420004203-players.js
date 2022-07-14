@@ -94,6 +94,9 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
+      about: {
+        type: Sequelize.STRING,
+      },
       permissionId: {
         allowNull: false,
         unique: true,
@@ -515,13 +518,18 @@ module.exports = {
         unique: true,
         type: Sequelize.INTEGER,
       },
-      bracketId: {
+
+      eventId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
-          model: "Brackets",
+          model: "Events",
           key: "id",
         },
+      },
+
+      description: {
+        type: Sequelize.STRING,
       },
 
       averageof: {
@@ -933,9 +941,46 @@ module.exports = {
         defaultValue: Sequelize.literal("NOW()"),
       },
     });
+
+    await queryInterface.createTable("Announcements", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        unique: true,
+        type: Sequelize.INTEGER,
+      },
+      eventId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Events",
+          key: "id",
+        },
+      },
+      orgId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        model: "Organisations",
+        key: "id",
+      },
+      details: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      created_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.literal("NOW()"),
+      },
+    });
   },
 
   down: async (queryInterface, Sequelize) => {
+    await queryInterface.dropTable("Announcements");
     await queryInterface.dropTable("PinnedEvents");
     await queryInterface.dropTable("Streams");
     await queryInterface.dropTable("GameResults");

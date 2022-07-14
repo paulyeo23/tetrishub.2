@@ -1,6 +1,6 @@
 export default function initPinnedEventsModel(sequelize, DataTypes) {
   return sequelize.define(
-    "Admins",
+    "PinnedEvents",
     {
       id: {
         allowNull: false,

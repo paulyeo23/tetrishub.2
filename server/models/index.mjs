@@ -20,6 +20,8 @@ import initSeedModel from "./SeederModel.mjs";
 import initPlayerSeedModel from "./PlayerSeedModel.mjs";
 import initAdminsModel from "./AdminsModel.mjs";
 import initPinnedEventsModel from "./PinnedEventsModel.mjs";
+import initVersionsModel from "./VersionsModel.mjs";
+import initAnnouncementsModel from "./AnnouncementsModel.mjs";
 
 const { Sequelize } = sequelizePackage;
 const env = "development";
@@ -53,6 +55,8 @@ db.Seeder = initSeedModel(sequelize, Sequelize.DataTypes);
 db.PlayerSeed = initPlayerSeedModel(sequelize, Sequelize.DataTypes);
 db.Admins = initAdminsModel(sequelize, Sequelize.DataTypes);
 db.PinnedEvents = initPinnedEventsModel(sequelize, Sequelize.DataTypes);
+db.Versions = initVersionsModel(sequelize, Sequelize.DataTypes);
+db.Announcements = initAnnouncementsModel(sequelize, Sequelize.DataTypes);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

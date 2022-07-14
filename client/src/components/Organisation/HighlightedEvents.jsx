@@ -1,14 +1,11 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Alert, Button, Col } from "react-bootstrap";
 import axios from "axios";
-import EventCell from "./EventCell.jsx";
+import EventCell from "./Events.jsx";
 import { heirarchy } from "./hierarchy.mjs";
 import { useParams } from "react-router-dom";
 
-const HighlightedEvents = (organisation) => {
-  const [Info, setInfo] = useState({
-    orgId,
-  });
+const HighlightedEvents = ({ Info, organisation }) => {
   // const [Tab, setTab] = useState({ tab: "Overview" });
   const [Render, setRender] = useState([]);
 
@@ -32,7 +29,12 @@ const HighlightedEvents = (organisation) => {
       </Col>,
     );
   });
-  return eventHighlights;
+  return [
+    <Row>
+      <h1>EVENTS BY {organisation.name.toUpperCase()}</h1>
+    </Row>,
+    <Row>{eventHighlights}</Row>,
+  ];
 };
 
 export default HighlightedEvents;

@@ -45,7 +45,7 @@ export const NavigationBar = () => {
 
             <li className="nav-item">
               <a className="nav-link" href="/Statistics">
-                Statistics
+                Forums
               </a>
             </li>
           </ul>

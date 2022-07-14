@@ -8,13 +8,8 @@ export default function initSeedModel(sequelize, DataTypes) {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
-      bracketId: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: {
-          model: "Brackets",
-          key: "id",
-        },
+      description: {
+        type: DataTypes.STRING,
       },
       averageof: {
         type: DataTypes.INTEGER,

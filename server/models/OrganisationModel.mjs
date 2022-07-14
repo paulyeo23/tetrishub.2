@@ -8,6 +8,13 @@ export default function initOrganisationsModel(sequelize, DataTypes) {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
+      name: {
+        allowNull: false,
+        type: DataTypes.STRING,
+      },
+      about: {
+        type: DataTypes.STRING,
+      },
       ownerId: {
         allowNull: false,
         unique: true,

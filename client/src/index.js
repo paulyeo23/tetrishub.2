@@ -12,7 +12,7 @@ import CreateEventPage from "./components/CreateEvent/CreateEvent";
 
 import reportWebVitals from "./reportWebVitals";
 import { NavigationBar } from "./components/NavigationBar/NavigationBar";
-import OrganisationTab from "./components/Organisation/OverviewTab";
+import OrganisationTab from "./components/Organisation/Organisationtab";
 // import ResultCells from "./components/AllResults/AllResults";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -25,6 +25,10 @@ root.render(
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
       </head>
       <body

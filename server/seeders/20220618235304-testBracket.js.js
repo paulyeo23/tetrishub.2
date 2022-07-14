@@ -11,7 +11,6 @@ module.exports = {
     ]);
     await queryInterface.bulkInsert("Seeders", [
       {
-        bracketId: 1,
         seedingMethod: 1,
       },
     ]);
