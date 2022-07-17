@@ -2,31 +2,8 @@ import { useState, useEffect, useParams } from "react";
 import axios from "axios";
 import * as module from "../infoFunctions";
 
-const HighlightedStats = () => {
-  const [Render, setRender] = useState([]);
-  const [Info, setInfo] = useState({
-    Brackets: [],
-    Edition: [],
-    Events: [],
-    GameResults: [],
-    Matches: [],
-    Organisation: [],
-    PlayerDetails: [],
-    QualifyingScores: [],
-    Series: [],
-    Streams: [],
-    Users: [],
-  });
-
-  useEffect(() => {
-    const getInfo = async () => {
-      const response = await axios("http://localhost:3001/");
-      setInfo(response.data);
-    };
-    getInfo();
-
-    console.log("connected");
-  }, []);
+const HighlightedStats = ({ Info }) => {
+  let Render;
 
   useEffect(() => {
     const queryParams = new URLSearchParams(window.location.search);

@@ -11,7 +11,12 @@ export default function initSeedModel(sequelize, DataTypes) {
       description: {
         type: DataTypes.STRING,
       },
-      averageof: {
+      tierLimit: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        defaultValue: 1,
+      },
+      averageOf: {
         type: DataTypes.INTEGER,
         defaultValue: 1,
       },

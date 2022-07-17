@@ -1,20 +1,7 @@
 "use strict";
 
 module.exports = {
-  async up(queryInterface, Sequelize) {
-    await queryInterface.bulkInsert("Brackets", [
-      {
-        size: 64,
-        eventId: 1,
-        bracketStage: 1,
-      },
-    ]);
-    await queryInterface.bulkInsert("Seeders", [
-      {
-        seedingMethod: 1,
-      },
-    ]);
-  },
+  async up(queryInterface, Sequelize) {},
 
   async down(queryInterface, Sequelize) {
     /**

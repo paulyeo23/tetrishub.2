@@ -27,18 +27,18 @@ import { getAdmin, addAdmin, removeAdmin } from "../service/adminTable.mjs";
 
 export function initAdminsController() {
   const GetAdmin = (request, response) => {
-    return getAdmin();
+    response.send(getAdmin());
   };
 
   const AddAdmin = (request, response) => {
     const userId = request.body.userId;
     const permissionId = request.body.permissionid;
-    return addAdmin(userId, permissionId);
+    response.send(addAdmin(userId, permissionId));
   };
 
   const RemoveAdmin = (request, response) => {
     const adminId = request.body.userId;
-    return removeAdmin(adminId);
+    response.send(removeAdmin(adminId));
   };
 
   return {

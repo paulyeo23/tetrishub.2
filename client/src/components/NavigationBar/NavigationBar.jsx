@@ -1,67 +1,103 @@
-export const NavigationBar = () => {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="/matches"
-              >
-                Matches
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Results">
-                Results
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Events">
-                Events
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Rankings">
-                Rankings
-              </a>
-            </li>
+import { useState, useEffect, useParams } from "react";
+import { Container, Row, Alert, Button, Col } from "react-bootstrap";
 
-            <li className="nav-item">
-              <a className="nav-link" href="/Statistics">
-                Forums
-              </a>
-            </li>
-          </ul>
-          <form className="d-flex">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
+import axios from "axios";
+
+export const NavigationBar = ({ user }) => {
+  return (
+    <div className="navbar">
+      <nav className="navcon">
+        <div className="Link" style={{ float: "left" }}>
+          <a href="/matches" className="navmatches" bis_skin_checked="1">
+            Matches
+          </a>
+          <a href="/results" className="navresults" bis_skin_checked="1">
+            Results
+          </a>
+          <a href="/events" className="navevents" bis_skin_checked="1">
+            Events
+          </a>
+          <a href="/stats" className="navstats" bis_skin_checked="1">
+            Stats
+          </a>
+          <a href="/galleries" className="navgalleries" bis_skin_checked="1">
+            Galleries
+          </a>
+          <a
+            href="/forums"
+            className="navforums no-promode"
+            bis_skin_checked="1"
+          >
+            Forums
+          </a>
+        </div>
+
+        <div
+          className="navsearch search-typeahead"
+          bis_skin_checked="1"
+          style={{ float: "right" }}
+        >
+          <form action="/search?term=">
+            <span
+              className="twitter-typeahead"
+              style={{ position: "relative", display: "inline-block" }}
+            >
+              <input
+                type="text"
+                className="navsearchinput tt-input"
+                name="query"
+                data-topbar-search-url="/search?term="
+                placeholder="Search..."
+                autoComplete="off"
+                spellCheck="false"
+                dir="auto"
+                style={{ position: "relative", verticalAlign: "top" }}
+              />
+              <pre
+                aria-hidden="true"
+                style={{
+                  position: "absolute",
+                  visibility: "hidden",
+                  " whiteSpace": "pre",
+                  fontFamily: "Open Sans; sans-serif",
+                  fontSize: "14px",
+                  fontStyle: "normal",
+                  fontVariant: "normal",
+                  fontWeight: 400,
+                  wordSpacing: "0px",
+                  letterSpacing: "0px",
+                  textIndent: "0px",
+                  textRendering: "auto",
+                  textTransform: "none",
+                }}
+              ></pre>
+              <div
+                className="tt-menu"
+                style={{
+                  position: "absolute",
+                  top: "100%",
+                  left: "0px",
+                  zIndex: 100,
+                  display: "none",
+                }}
+                bis_skin_checked="1"
+              >
+                <div
+                  className="tt-dataset tt-dataset-teamSearch"
+                  bis_skin_checked="1"
+                ></div>
+              </div>
+            </span>
+            <div className="search-submit-hidden" bis_skin_checked="1">
+              <input type="submit" tabIndex="-1" />
+            </div>
+            <div className="navsearchborder" bis_skin_checked="1"></div>
+            <button type="submit" className="navsearchicon" aria-label="Search">
+              <i className="fa fa-search"></i>
             </button>
           </form>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 };

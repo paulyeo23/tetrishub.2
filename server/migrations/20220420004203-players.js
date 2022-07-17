@@ -26,13 +26,13 @@ module.exports = {
         type: Sequelize.STRING,
         unique: true,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -49,13 +49,13 @@ module.exports = {
         unique: true,
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -72,13 +72,13 @@ module.exports = {
         unique: true,
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -139,13 +139,13 @@ module.exports = {
       twitch: {
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -175,13 +175,13 @@ module.exports = {
           key: "id",
         },
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -216,13 +216,13 @@ module.exports = {
           key: "id",
         },
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -254,13 +254,13 @@ module.exports = {
           key: "id",
         },
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -281,6 +281,10 @@ module.exports = {
           model: "Users",
           key: "id",
         },
+      },
+
+      elo: {
+        type: Sequelize.INTEGER,
       },
 
       photo: {
@@ -324,13 +328,13 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
 
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -347,13 +351,13 @@ module.exports = {
         unique: true,
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -442,13 +446,13 @@ module.exports = {
           key: "id",
         },
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -465,13 +469,13 @@ module.exports = {
         unique: true,
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -500,13 +504,13 @@ module.exports = {
           key: "id",
         },
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -528,11 +532,17 @@ module.exports = {
         },
       },
 
+      tierLimit: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 1,
+      },
+
       description: {
         type: Sequelize.STRING,
       },
 
-      averageof: {
+      averageOf: {
         type: Sequelize.INTEGER,
         defaultValue: 1,
       },
@@ -548,13 +558,13 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -585,13 +595,13 @@ module.exports = {
       seed: {
         type: Sequelize.INTEGER,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -638,13 +648,13 @@ module.exports = {
       videoLink: {
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -674,13 +684,13 @@ module.exports = {
       loserTo: {
         type: Sequelize.INTEGER,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -694,8 +704,8 @@ module.exports = {
       },
 
       dateTime: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
 
       bestOf: {
@@ -771,7 +781,7 @@ module.exports = {
       },
       eventId: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        allowNull: true,
         references: {
           model: "Events",
           key: "id",
@@ -781,104 +791,16 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
-    // await queryInterface.createTable("GameResults", {
-    //   id: {
-    //     allowNull: false,
-    //     autoIncrement: true,
-    //     primaryKey: true,
-    //     unique: true,
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   matchId: {
-    //     type: Sequelize.INTEGER,
-    //     allowNull: false,
-
-    //     references: {
-    //       model: "Matches",
-    //       key: "id",
-    //     },
-    //   },
-    //   round: {
-    //     type: Sequelize.INTEGER,
-    //     allowNull: false,
-    //   },
-    //   player1Id: {
-    //     type: Sequelize.INTEGER,
-    //     references: {
-    //       model: "Matches",
-    //       key: "player1Id",
-    //     },
-    //     allowNull: false,
-    //   },
-    //   player1Score: {
-    //     type: Sequelize.INTEGER,
-    //     allowNull: false,
-    //   },
-    //   player2Id: {
-    //     type: Sequelize.INTEGER,
-    //     references: {
-    //       model: "Matches",
-    //       key: "player2Id",
-    //     },
-    //     allowNull: false,
-    //   },
-    //   player2Score: {
-    //     type: Sequelize.INTEGER,
-    //     allowNull: false,
-    //   },
-    //   player1TetrisRate: {
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   player1LongBarCount: {
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   player2TetrisRate: {
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   player2LongBarCount: {
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   winnerId: {
-    //     type: Sequelize.INTEGER,
-    //     references: {
-    //       model: "PlayerDetails",
-    //       key: "id",
-    //     },
-    //     allowNull: false,
-    //   },
-    //   winnerTetrisRate: {
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   winnerLongBarCount: {
-    //     type: Sequelize.INTEGER,
-    //   },
-    //   loserId: {
-    //     type: Sequelize.INTEGER,
-    //     references: {
-    //       model: "PlayerDetails",
-    //       key: "id",
-    //     },
-    //     allowNull: false,
-    //   },
-    //   created_at: {
-    //     type: Sequelize.DATE,
-    //     defaultValue: Sequelize.literal("NOW()"),
-    //   },
-    //   updated_at: {
-    //     type: Sequelize.DATE,
-    //     defaultValue: Sequelize.literal("NOW()"),
-    //   },
-    // });
     await queryInterface.createTable("Streams", {
       id: {
         allowNull: false,
@@ -900,13 +822,13 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -932,13 +854,13 @@ module.exports = {
         model: "Organisations",
         key: "id",
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
 
@@ -949,6 +871,14 @@ module.exports = {
         primaryKey: true,
         unique: true,
         type: Sequelize.INTEGER,
+      },
+      userId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
       },
       eventId: {
         allowNull: false,
@@ -961,25 +891,165 @@ module.exports = {
       orgId: {
         allowNull: false,
         type: Sequelize.INTEGER,
-        model: "Organisations",
-        key: "id",
+        references: {
+          model: "Organisations",
+          key: "id",
+        },
       },
       details: {
         allowNull: false,
         type: Sequelize.STRING,
       },
-      created_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      updated_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.literal("NOW()"),
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+    });
+
+    await queryInterface.createTable("Forums", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        unique: true,
+        type: Sequelize.INTEGER,
+      },
+      subName: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      details: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+    });
+
+    await queryInterface.createTable("Threads", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        unique: true,
+        type: Sequelize.INTEGER,
+      },
+      userId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+      },
+      announcementsId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Announcements",
+          key: "id",
+        },
+      },
+      forumsId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Forums",
+          key: "id",
+        },
+      },
+      title: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      details: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+    });
+
+    await queryInterface.createTable("Comments", {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        unique: true,
+        type: Sequelize.INTEGER,
+      },
+      userId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+      },
+      threadId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Threads",
+          key: "id",
+        },
+      },
+      userId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+      },
+      post: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      reply: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Comments",
+          key: "id",
+        },
+      },
+      deleted: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+      },
+      details: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      createdAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+      },
+      updatedAt: {
+        type: "TIMESTAMP",
+        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
     });
   },
 
   down: async (queryInterface, Sequelize) => {
+    await queryInterface.dropTable("Comments");
+    await queryInterface.dropTable("Threads");
+    await queryInterface.dropTable("Forums");
     await queryInterface.dropTable("Announcements");
     await queryInterface.dropTable("PinnedEvents");
     await queryInterface.dropTable("Streams");

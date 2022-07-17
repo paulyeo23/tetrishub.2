@@ -21,7 +21,7 @@ const Register = ({ setUsername }) => {
       setMsg("Both password do not match, please re-enter");
     } else {
       axios
-        .post(`${BACKEND_URL}/register`, {
+        .post(`http://localhost:3001/register`, {
           loginDetails,
         })
         .then((response) => {

@@ -1,3 +1,5 @@
+import { changeFlagCode } from "./countryCodes.mjs";
+
 Date.prototype.AddDays = function (days) {
   let date = new Date(this.valueOf());
   date.setDate(date.getDate() + days);
@@ -146,12 +148,21 @@ export const getEvent = (Events, eventId) => {
 };
 
 export const getPlayerFlag = (player) => {
+  console.log("player", player);
+  let address;
   // console.log(playerObj.Country);
-  if (player.country == "US" && player.state != null) {
-    return `flags/usflags/${player.State}.png`;
+  if (player.country == "USA" && player.state != null) {
+    return `flags/usflags/${player.state}.png`;
   } else {
-    return `flags/WorldFlag/4x3/${player.Country}.svg`;
+    player.country.length == 2
+      ? (address = `http://localhost:3001/flags/WorldFlag/4x3/${player.country}.svg`)
+      : player.country.length == 3
+      ? (address = `http://localhost:3001/flags/WorldFlag/4x3/${changeFlagCode(
+          player.country,
+        )}.svg`)
+      : (address = `http://localhost:3001/profile/placeholder.svg`);
   }
+  return address;
 };
 
 export const getPlayer = (PlayerDetails, playerId) => {
@@ -201,7 +212,7 @@ export const getPlayerPhoto = (PlayerDetails, playerId) => {
   })[0];
   console.log(player);
   if (player.Photo == true) {
-    return `http://localhost:3001/profile/${player.Alias}.png`;
+    return `http://localhost:3001/profile/${player.country}.png`;
   } else {
     return `http://localhost:3001/profile/placeholder.svg`;
   }

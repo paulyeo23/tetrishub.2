@@ -1,13 +1,459 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+optgroup {
+  font-weight: 700;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+} /*!HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/*/
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+::-moz-selection {
+  text-shadow: none;
+}
+::selection {
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+
+@media (max-width: 500px) {
+  .gtSmartphone-only {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .logoCon {
+    display: none;
+  }
+  .navcon .small-logo {
+    width: 46px;
+  }
+}
+
+.bgPadding {
+  min-height: calc(100vh - 100px);
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #e5e7ea;
+  padding: 10px 0 16px;
+}
+
+.colCon {
+  display: grid;
+  grid-gap: 0 16px;
+}
+
+.contentCol {
+  grid-row: 1;
+  grid-column: 3;
+  grid-area: contentCol;
+}
+
+.leftCol {
+  grid-area: leftCol;
+  grid-row: 1;
+  grid-column: 1;
+}
+.leftCol #g1_top {
+  position: relative;
+  padding-bottom: 165.517241379%;
+  height: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.widthControl {
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+.forumlist {
+  font-size: 12px;
+}
+.forumlist .sectionspacer {
+  height: 18px;
+}
+.forumlist .sectionheader {
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-color: #f6f6f9;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.forumlist .sectionheader .forumRules {
+  float: right;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #353535;
+}
+.forumlist .forumContainer {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px 9px;
+}
+.forumlist .forumDesc {
+  line-height: 1.4;
+  flex: 1 1 0;
+  font-size: 14px;
+  color: #353535;
+}
+.forumlist .forumTitle {
+  font-weight: 700;
+}
+.forumlist .forumAct {
+  flex: 0 0 auto;
+}
+
+.forumthreads {
+  font-size: 12px;
+}
+.forumthreads .table {
+  font-weight: 700;
+  border-collapse: collapse;
+  width: 100%;
+}
+.forumthreads .tableheader {
+  background-color: #f6f6f9;
+}
+.forumthreads .tableheader td {
+  padding: 8px;
+}
+@media (max-width: 500px) {
+  .forumthreads .author,
+  .forumthreads .author-header {
+    display: none;
+  }
+}
+.forumthreads .tablerow {
+  border-top: 1px solid #ccc;
+}
+.forumthreads .tablerow td {
+  padding: 8px;
+  white-space: nowrap;
+}
+.forumthreads .tablerow .name {
+  padding: 0;
+  width: 100%;
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: #2d6da3;
+}
+.forumthreads .tablerow .name:hover {
+  color: #154166 !important;
+  cursor: pointer;
+}
+.forumthreads .tablerow .name a {
+  padding: 8px;
+  display: block;
+}
+.forumthreads .tablerow .replies {
+  width: 0;
+}
+.forumthreads .tablerow .author {
+  max-width: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: #2d6da3;
+  padding: 0;
+}
+.forumthreads .tablerow .author:hover {
+  color: #154166 !important;
+  cursor: pointer;
+}
+.forumthreads .tablerow .author a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 8px;
+  display: block;
+}
+.forumthreads .tablerow .activity {
+  width: 0;
+}
+.forumthreads .tablerow:hover {
+  background-color: #ededef;
+}
+.forumthreads .spacer {
+  height: 10px;
+}
+
+.navbar .navcon {
+  max-width: 975px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .nav,
+.navbar .navburger,
+.navbar .navevents,
+.navbar .navfantasy,
+.navbar .navforums,
+.navbar .navgalleries,
+.navbar .navlive,
+.navbar .navmatches,
+.navbar .navnews,
+.navbar .navranking,
+.navbar .navresults,
+.navbar .navstats {
+  height: 46px;
+  line-height: 46px;
+  vertical-align: middle;
+  color: #353535;
+  font-weight: 400;
+  padding: 0 11px;
+  border-right: 1px solid hsla(0, 0%, 80%, 0.65);
+  text-align: center;
+  transition: 0.2s ease;
+}
+.navbar .navsearch {
+  width: 100px;
+  margin: 0 16px;
+  flex: 999999 1 auto;
+  position: relative;
+}
+.navbar .search-submit-hidden {
+  display: none;
+}
+.navbar .navsearchinput {
+  height: 27px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 27px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  background-color: #fff;
+  color: #353535;
+}
+.navbar .navsearchinput:focus {
+  border: 1px solid #2d6da3;
+}
+.navbar .navsearchborder {
+  position: absolute;
+  top: 4px;
+  right: 24px;
+  z-index: 1;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+.navbar .navsearchicon {
+  position: absolute;
+  top: 1px;
+  right: 6px;
+  z-index: 1;
+  color: #353535;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: 0 0;
+  cursor: pointer;
+}
+.navbar .navsearchicon:hover {
+  color: #2d6da3;
+}
+.navbar .navborder {
+  height: 46px;
+}
+.navbar .navborder:before {
+  display: block;
+  content: " ";
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+  margin: 12.5px 0;
+}
+.navbar .navbell {
+  position: relative;
+  margin: 0 8px 0 16px;
+  font-size: 14px;
+}
+.navbar .navenv {
+  position: relative;
+  margin: 0 16px 0 8px;
+  font-size: 14px;
+}
+.navbar .fa-bell,
+.navbar .fa-envelope-o {
+  position: relative;
+  color: #a2a2a2;
+  cursor: pointer;
 }

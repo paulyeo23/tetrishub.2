@@ -22,6 +22,9 @@ import initAdminsModel from "./AdminsModel.mjs";
 import initPinnedEventsModel from "./PinnedEventsModel.mjs";
 import initVersionsModel from "./VersionsModel.mjs";
 import initAnnouncementsModel from "./AnnouncementsModel.mjs";
+import initCommentsModel from "./commentsmodel.mjs";
+import initForumsModel from "./ForumsModel.mjs";
+import initThreadsModel from "./ThreadsModel.mjs";
 
 const { Sequelize } = sequelizePackage;
 const env = "development";
@@ -57,6 +60,9 @@ db.Admins = initAdminsModel(sequelize, Sequelize.DataTypes);
 db.PinnedEvents = initPinnedEventsModel(sequelize, Sequelize.DataTypes);
 db.Versions = initVersionsModel(sequelize, Sequelize.DataTypes);
 db.Announcements = initAnnouncementsModel(sequelize, Sequelize.DataTypes);
+db.Comments = initCommentsModel(sequelize, Sequelize.DataTypes);
+db.Forums = initForumsModel(sequelize, Sequelize.DataTypes);
+db.Threads = initThreadsModel(sequelize, Sequelize.DataTypes);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

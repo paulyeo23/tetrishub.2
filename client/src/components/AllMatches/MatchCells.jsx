@@ -3,24 +3,7 @@ import { NavigationBar } from "../NavigationBar/NavigationBar";
 import axios from "axios";
 import * as module from "../infoFunctions";
 
-const MatchCells = () => {
-  const [UpcomingCells, setUpcomingCells] = useState([]);
-  const [LiveCells, setLiveCells] = useState([]);
-  const [Loading, setLoading] = useState(true);
-  const [Info, setInfo] = useState({
-    Brackets: [],
-    Edition: [],
-    Events: [],
-    GameResults: [],
-    Matches: [],
-    Organisation: [],
-    PlayerDetails: [],
-    QualifyingScores: [],
-    Series: [],
-    Streams: [],
-    Users: [],
-  });
-
+const MatchCells = (Info) => {
   //render upcoming matches cells
   useEffect(() => {
     const getInfo = async () => {

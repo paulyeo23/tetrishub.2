@@ -19,6 +19,10 @@ export default function initPlayerDetailsModel(sequelize, DataTypes) {
         },
       },
 
+      elo: {
+        type: DataTypes.INTEGER,
+      },
+
       photo: {
         type: DataTypes.BOOLEAN,
       },

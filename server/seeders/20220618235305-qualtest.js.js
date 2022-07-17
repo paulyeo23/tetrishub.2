@@ -829,27 +829,27 @@ const players = [
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    const playerDetails = await queryInterface.sequelize
-      .query(`SELECT * FROM "PlayerDetails";`)
-      .then(async (results) => {
-        const playerList = results[0];
-        let insertlist = [];
-        players.forEach((player) => {
-          let playerid = playerList.filter((Player) => {
-            return Player.alias == player.Alias;
-          })[0];
-          playerid != undefined
-            ? insertlist.push({
-                seederId: 1,
-                playerId: playerid.id,
-                score: player.QualifierScore.slice(0, 3).concat(
-                  player.QualifierScore.slice(4, 7),
-                ),
-              })
-            : false;
-        });
-        await queryInterface.bulkInsert("QualifyingScores", insertlist);
-      });
+    // const playerDetails = await queryInterface.sequelize
+    //   .query(`SELECT * FROM "PlayerDetails";`)
+    //   .then(async (results) => {
+    //     const playerList = results[0];
+    //     let insertlist = [];
+    //     players.forEach((player) => {
+    //       let playerid = playerList.filter((Player) => {
+    //         return Player.alias == player.Alias;
+    //       })[0];
+    //       playerid != undefined
+    //         ? insertlist.push({
+    //             seederId: 1,
+    //             playerId: playerid.id,
+    //             score: player.QualifierScore.slice(0, 3).concat(
+    //               player.QualifierScore.slice(4, 7),
+    //             ),
+    //           })
+    //         : false;
+    //     });
+    //     await queryInterface.bulkInsert("QualifyingScores", insertlist);
+    //   });
   },
 
   async down(queryInterface, Sequelize) {
