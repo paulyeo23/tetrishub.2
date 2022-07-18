@@ -282,8 +282,7 @@ const Brackets = () => {
     upperBracket[game.id] = {};
     upperBracket[game.id] = game;
   });
-  console.log(generateRounds(32));
-  console.log(generateMatches(32));
+
   // console.log(upperBracket);
 
   const App = () => (

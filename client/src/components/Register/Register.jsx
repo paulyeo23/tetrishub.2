@@ -10,14 +10,31 @@ const BACKEND_URL =
 
 const Register = ({ setUsername }) => {
   const [Info, setInfo] = useState({});
-  const [loginDetails, setLoginDetails] = useState({});
+  const [loginDetails, setLoginDetails] = useState();
   const [msg, setMsg] = useState("");
+  const [Error, setError] = useState({
+    usernameError: true,
+    passwordError: true,
+    emailError: true,
+    confirmPasswordError: true,
+    confirmEmailError: true,
+  });
 
-  const navigate = useNavigate();
+  function updateErrors() {
+    setError({
+      usernameError: loginDetails.username == undefined,
+      passwordError: loginDetails.password == undefined,
+      emailError: loginDetails.email == undefined,
+      confirmPasswordError: loginDetails.confirmPasswordInput == undefined,
+      confirmEmailError: loginDetails.confirmEmailInput == undefined,
+    });
+  }
 
   function loginCheck(e) {
     e.preventDefault();
-    if (loginDetails.password !== loginDetails.password2) {
+    updateErrors();
+
+    if (loginDetails.password !== loginDetails.confirmPasswordInput) {
       setMsg("Both password do not match, please re-enter");
     } else {
       axios
@@ -49,74 +66,181 @@ const Register = ({ setUsername }) => {
     return List;
   }
 
-  // useEffect(() => {
-  //   const getInfo = async () => {
-  //     const response = await axios("http://localhost:3001/");
-  //     setInfo(response.data);
-  //   };
-  //   getInfo();
-
-  //   console.log("connected");
-  // }, []);
-
   return (
-    <Container className="login-container">
-      <h1>Registration</h1>
+    <div className="signup standard-box" bis_skin_checked="1">
       <form onSubmit={loginCheck}>
-        <Row>
-          <Col>Username:</Col>
-          <Col>
-            <input name="username" onChange={details} />
-          </Col>
-        </Row>
-        <Row>
-          <Col>Password:</Col>
-          <Col>
-            <input type="password" name="password" onChange={details} />{" "}
-          </Col>
-        </Row>
-        <Row>
-          <Col>Confirm password:</Col>
-          <Col>
-            <input type="password" name="password2" onChange={details} />{" "}
-          </Col>
-        </Row>
-        <Row>
-          <Col>Email:</Col>
-          <Col>
-            <input
-              type="text"
-              onChange={details}
-              name="email"
-              id="emailInput"
-              tabindex="4"
-              required="required"
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>Confirm Email:</Col>
-          <Col>
-            <input
-              type="text"
-              id="confirmEmailInput"
-              onChange={details}
-              tabindex="5"
-              required="required"
-            />
-          </Col>
-        </Row>
-        <Row>
-          <select onChange={details} tabindex="6" name="country">
-            {generateCountryList()}
-          </select>
-        </Row>
-        <Row>
-          <Button type="submit">Register</Button>
-        </Row>
-        <Row>{msg && <Alert variant="danger">{msg}</Alert>}</Row>
+        <div className="indent" bis_skin_checked="1">
+          <div className="header" bis_skin_checked="1">
+            Sign up
+          </div>
+          <span>
+            Thank you for signing up to Tetris Hub!
+            <br />
+            We only need you to fill in some information, before your account is
+            ready.
+          </span>
+          <div className="horizontal-line" bis_skin_checked="1"></div>
+          <div className="section-header" bis_skin_checked="1">
+            Personal info
+          </div>
+          <div className="indent" bis_skin_checked="1">
+            <div className="input-columns" bis_skin_checked="1">
+              <div className="col input" bis_skin_checked="1">
+                Username
+                <input
+                  onChange={details}
+                  type="text"
+                  name="username"
+                  id="usernameInput"
+                  tabIndex="1"
+                  autoFocus="autoFocus"
+                  required="required"
+                  data-username-lookup-url="/usernamesearch"
+                />
+                <span
+                  className="validation-error"
+                  id="usernameError"
+                  hidden="true"
+                >
+                  <i className=" fa fa-times" aria-hidden="true"></i>
+                  <span className="message">Field required</span>
+                </span>
+              </div>
+              <div className="col input" bis_skin_checked="1">
+                Password
+                <input
+                  onChange={details}
+                  type="password"
+                  name="password"
+                  id="passwordInput"
+                  tabIndex="2"
+                  required="required"
+                />
+                <span
+                  className="validation-error"
+                  id="passwordError"
+                  hidden="true"
+                >
+                  <i className=" fa fa-times" aria-hidden="true"></i>
+                  <span className="message">Field required</span>
+                </span>
+              </div>
+              <div className="col input" bis_skin_checked="1">
+                Email
+                <input
+                  onChange={details}
+                  type="text"
+                  name="email"
+                  id="emailInput"
+                  tabIndex="4"
+                  required="required"
+                />
+                <span
+                  className="validation-error"
+                  id="emailError"
+                  hidden="true"
+                >
+                  <i className=" fa fa-times" aria-hidden="true"></i>
+                  <span className="message">Field required</span>
+                </span>
+              </div>
+            </div>
+            <div className="input-columns" bis_skin_checked="1">
+              <div className="col" bis_skin_checked="1"></div>
+              <div className="col input" bis_skin_checked="1">
+                Confirm password
+                <input
+                  onChange={details}
+                  type="password"
+                  name="confirmPasswordInput"
+                  tabIndex="3"
+                  required="required"
+                />
+                <span
+                  className="validation-error"
+                  id="confirmPasswordError"
+                  hidden="true"
+                >
+                  <i className=" fa fa-times" aria-hidden="true"></i>
+                  <span className="message">Field required</span>
+                </span>
+              </div>
+              <div className="col input" bis_skin_checked="1">
+                Confirm email
+                <input
+                  onChange={details}
+                  type="text"
+                  name="confirmEmailInput"
+                  tabIndex="5"
+                  required="required"
+                />
+                <span
+                  className="validation-error"
+                  id="confirmEmailError"
+                  hidden="true"
+                >
+                  <i className=" fa fa-times" aria-hidden="true"></i>
+                  <span className="message">Field required</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="horizontal-line" bis_skin_checked="1"></div>
+          <div className="section-header" bis_skin_checked="1">
+            Flag
+          </div>
+          <div className="indent" bis_skin_checked="1">
+            <div className="input-columns" bis_skin_checked="1">
+              <div className="col input" bis_skin_checked="1">
+                Flag to display
+                <select onChange={details} tabIndex="6" name="country">
+                  {generateCountryList()}
+                </select>
+              </div>
+            </div>
+          </div>
+          <div className="horizontal-line" bis_skin_checked="1"></div>
+
+          <div className="section-header" bis_skin_checked="1">
+            Privacy and data
+          </div>
+          <span>
+            By creating an account on TetrisHub we will store and process data
+            of and about you. You can at all times read the full and latest
+            terms
+            <a href="/terms" target="_blank" bis_skin_checked="1">
+              {" "}
+              here{" "}
+            </a>
+            and privacy policy
+            <a href="/privacy" target="_blank" bis_skin_checked="1">
+              {" "}
+              here
+            </a>
+            .
+          </span>
+          <div className="horizontal-line" bis_skin_checked="1"></div>
+          <input
+            onChange={details}
+            type="text"
+            className="hidden"
+            id="signup-timezone"
+            tabIndex="7"
+            name="timezone"
+          />
+          <div className="submit-row" bis_skin_checked="1">
+            <button
+              type="submit"
+              className="submit"
+              tabIndex="9"
+              id="signup-validate-button"
+            >
+              Create account
+            </button>
+          </div>
+        </div>
       </form>
-    </Container>
+    </div>
   );
 };
 export default Register;

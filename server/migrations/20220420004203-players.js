@@ -26,6 +26,10 @@ module.exports = {
         type: Sequelize.STRING,
         unique: true,
       },
+      country: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
       createdAt: {
         type: "TIMESTAMP",
         defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),

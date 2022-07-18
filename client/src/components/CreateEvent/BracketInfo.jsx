@@ -13,7 +13,6 @@ const EventBracketsInfo = (info) => {
   });
 
   function onStageChange(e) {
-    console.log(Stage);
     const { value, name } = e.target;
     setStage((prev) => ({
       ...prev,

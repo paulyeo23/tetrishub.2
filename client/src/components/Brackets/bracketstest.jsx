@@ -116,7 +116,7 @@ const Brackets = () => {
 
   const upperBracket = generateUpperBrackets(Info, upperBracketMatches);
 
-  console.log(upperBracket);
+
   const App = () => (
     <div className="brackets">
       <div

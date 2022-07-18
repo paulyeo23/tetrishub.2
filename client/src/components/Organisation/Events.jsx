@@ -132,7 +132,7 @@ const EventCells = ({ Info, organisation }) => {
   };
 
   useEffect(() => {
-    console.log(Number(Entries) == Math.floor(allEvents[Event].length / 10));
+
     setRender(
       <div>
         <Button value="ONGOING AND UPCOMING" onClick={changeEvent}>

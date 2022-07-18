@@ -2,26 +2,26 @@ import { useState, useEffect, useParams } from "react";
 import axios from "axios";
 import * as module from "../infoFunctions";
 import { useSearchParams } from "react-router-dom";
+import { getCountryFlag } from "./coutnryflags.mjs";
 
-const MatchTable = (info) => {
+const MatchTable = ({ Info }) => {
   const [Render, setRender] = useState([]);
   const [time, setTime] = useState(Date.now());
-  const [Info, setInfo] = useState(info.info);
 
-  // useEffect(() => {
-  //   const getInfo = async () => {
-  //     const response = await axios("http://localhost:3001/");
-  //     setInfo(response.data);
-  //   };
-  //   getInfo();
-
-  //   console.log("connected");
-  // }, []);
-
-  useEffect(() => {
-    setInfo(info.info);
-    console.log("connected");
-  }, [info]);
+  function ordinal_suffix_of(i) {
+    var j = i % 10,
+      k = i % 100;
+    if (j == 1 && k != 11) {
+      return i + "st";
+    }
+    if (j == 2 && k != 12) {
+      return i + "nd";
+    }
+    if (j == 3 && k != 13) {
+      return i + "rd";
+    }
+    return i + "th";
+  }
 
   useEffect(() => {
     const queryParams = new URLSearchParams(window.location.search);
@@ -29,9 +29,11 @@ const MatchTable = (info) => {
     const match = Info.Matches.filter((result) => {
       return result.id == matchId;
     })[0];
+    const event = Info.Events.filter((event) => {
+      return event.id == match.eventId;
+    })[0];
 
-    if (match == undefined) {
-    } else {
+    if (match != undefined) {
       const matchDetails = {
         matchTime: module.getTimeObj(new Date(match.dateTime)),
         player1: module.getPlayer(Info.PlayerDetails, match.player1Id),
@@ -45,191 +47,112 @@ const MatchTable = (info) => {
       matchDetails.player2.score = match.player2Score;
       matchDetails.player2.position = 2;
 
-      const produceScoreElement = (player) => {
-        if (match.Completed == true) {
-          if (player.id == match.winnerId) {
-            return (
-              <div
-                className="d-flex justify-content-center winScore"
-                style={{ color: "green", fontSize: "150%" }}
-                bis_skin_checked="1"
-              >
-                {player.score}
-              </div>
-            );
-          } else if (player.id == match.loserId) {
-            return (
-              <div
-                className="d-flex justify-content-center loseScore"
-                bis_skin_checked="1"
-                style={{ color: "red", "font-size": "150%" }}
-              >
-                {player.score}
-              </div>
-            );
-          }
-        } else if (match.live == true) {
-          return (
-            <div
-              className={`d-flex justify-content-center player${player.position}`}
-              bis_skin_checked="1"
-            >
-              {player.score}
-            </div>
-          );
-        } else if (match.live == false) {
-          return (
-            <div
-              className={`d-flex justify-content-center ${player.position}`}
-              bis_skin_checked="1"
-            ></div>
-          );
-        }
-      };
-
-      const countdown = () => {
-        if (match.completed == true) {
-          return (
-            <div
-              className="d-flex flex-row justify-content-center countdown"
-              bis_skin_checked="1"
-            >
-              Match Over
-            </div>
-          );
-        } else if (match.live == true) {
-          return (
-            <div
-              className="d-flex flex-row justify-content-center countdown"
-              bis_skin_checked="1"
-            >
-              Live
-            </div>
-          );
-        } else {
-          return (
-            <div
-              className="d-flex flex-row justify-content-center countdown"
-              bis_skin_checked="1"
-            >
-              {matchDetails.countdown}
-            </div>
-          );
-        }
-      };
       setRender(
-        <div
-          className="d-flex flex-row justify-content-center PlayerContainer"
-          bis_skin_checked="1"
-        >
-          <div className="d-flex flex-column Player1" bis_skin_checked="1">
-            <div className="player1-gradient" bis_skin_checked="1">
-              <a href="">
+        <div className="standard-box teamsBox" bis_skin_checked="1">
+          <div className="team" bis_skin_checked="1">
+            <img
+              alt={matchDetails.player1.country}
+              src={getCountryFlag(matchDetails.player1.country)}
+              className="team1"
+              title={matchDetails.player1.country}
+            />
+            <div className="team1-gradient" bis_skin_checked="1">
+              <a
+                href={`/player/${matchDetails.player1.alias}`}
+                bis_skin_checked="1"
+              >
                 <img
                   alt={matchDetails.player1.alias}
-                  className="logo"
+                  className="logo day-only"
+                  srcSet=""
                   title={matchDetails.player1.alias}
-                  height="135px"
-                  width="180px"
+                  height="60px"
+                  width="120px"
                   src={module.getPlayerPhoto(
                     Info.PlayerDetails,
                     matchDetails.player1.id,
                   )}
                 />
-                <div
-                  className="d-flex flex-row justify-content-center player1Name"
-                  bis_skin_checked="1"
-                >
+
+                <div className="teamName" bis_skin_checked="1">
                   {matchDetails.player1.alias}
                 </div>
               </a>
-              <div
-                className={`d-flex flex-row justify-content-center player1Score win=${
-                  match.winnerId == matchDetails.player1.id
-                }`}
-                bis_skin_checked="1"
-              ></div>
-              {produceScoreElement(matchDetails.player1)}
             </div>
           </div>
-          <div
-            className="d-flex flex-column  TimeAndEvent"
-            bis_skin_checked="1"
-          >
+          <div className="timeAndEvent" bis_skin_checked="1">
             <div
-              className="d-flex flex-row justify-content-center time"
-              style={{ "font-size": "250%" }}
+              className="time"
               data-time-format="HH:mm"
+              data-unix="1658103300000"
               bis_skin_checked="1"
             >
               {matchDetails.matchTime.hour}:{matchDetails.matchTime.minutes}
             </div>
             <div
-              className="d-flex flex-row justify-content-center date"
-              style={{ "font-size": "100%", "font-weight": "" }}
+              className="date"
               data-time-format="do 'of' MMMM y"
+              data-unix="1658103300000"
               bis_skin_checked="1"
             >
               {matchDetails.matchTime.day}
-              {matchDetails.matchTime.ordinal} of {matchDetails.matchTime.month}{" "}
-              {matchDetails.matchTime.year}
+              {matchDetails.matchTime.ordinal} of
+              {matchDetails.matchTime.month} {matchDetails.matchTime.year}
             </div>
-            <a
-              href={`/event/?event=${matchDetails.event.id}`}
-              title={matchDetails.event.name}
-            >
-              <div
-                className="d-flex flex-row justify-content-center tableEventName"
-                style={{ "font-size": "15px" }}
-              >
-                {matchDetails.event.name}
-              </div>
-            </a>
-
-            <div
-              className="d-flex flex-row justify-content-center event text-ellipsis"
-              bis_skin_checked="1"
-            >
+            <div className="event text-ellipsis" bis_skin_checked="1">
               <a
-                href={`/events/${matchDetails.event.id}`}
-                title={matchDetails.event.name}
+                href={`/event/${event.Id}`}
+                title={event.name}
+                bis_skin_checked="1"
               >
-                {matchDetails.event.name}
+                {event.name}
               </a>
             </div>
             <div className="text dummy-spacer" bis_skin_checked="1">
               &nbsp;
             </div>
-            {countdown()}
+            <div
+              className={`countdown ${
+                match.live == true && match.concluded == false
+                  ? "countdown-live"
+                  : ""
+              }`}
+              bis_skin_checked="1"
+            >
+              {match.concluded == true
+                ? "Match over"
+                : match.live == true
+                ? "LIVE"
+                : matchDetails.countdown}
+            </div>
           </div>
-          <div className="d-flex flex-column Player2" bis_skin_checked="1">
+          <div className="team" bis_skin_checked="1">
+            <img
+              alt={matchDetails.player2.country}
+              src={getCountryFlag(matchDetails.player2.country)}
+              className="team2"
+              title={matchDetails.player2.country}
+            />
             <div className="team2-gradient" bis_skin_checked="1">
-              <a href="/team/7653/isurus">
+              <a
+                href={`/player/${matchDetails.player1.alias}`}
+                bis_skin_checked="1"
+              >
                 <img
-                  alt={matchDetails.player2.Alias}
+                  alt={matchDetails.player2.alias}
                   className="logo"
-                  title={matchDetails.player2.Alias}
-                  height="135px"
-                  width="180px"
+                  title={matchDetails.player2.alias}
+                  height="60px"
+                  width="120px"
                   src={module.getPlayerPhoto(
                     Info.PlayerDetails,
                     matchDetails.player2.id,
                   )}
                 />
-                <div
-                  className="d-flex flex-row justify-content-center player2Name"
-                  bis_skin_checked="1"
-                >
+                <div className="teamName" bis_skin_checked="1">
                   {matchDetails.player2.alias}
                 </div>
               </a>
-              <div
-                className={`d-flex flex-row justify-content-center player1Score win=${
-                  match.winnerId == matchDetails.player2.id
-                }`}
-                bis_skin_checked="1"
-              ></div>
-              {produceScoreElement(matchDetails.player2)}
             </div>
           </div>
         </div>,

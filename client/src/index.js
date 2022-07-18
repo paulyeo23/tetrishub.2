@@ -19,6 +19,9 @@ import LatestResults from "./components/Right2Col/LatestResults";
 import Right2Col from "./components/Right2Col/Right2Col";
 import NavBar from "./components/NavigationBar/NavBar";
 import LeftCol from "./components/LeftCol/LeftCol";
+import AllMatches from "./components/AllMatches/AllMatches";
+import AllResultsPage from "./components/AllResults/AllResultsPage";
+import NewEventCells from "./components/AllEvents/NewEventCells";
 // import ResultCells from "./components/AllResults/AllResults";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -45,8 +48,14 @@ root.render(
               <div className="contentCol">
                 <Router>
                   <Routes>
-                    <Route path="/matches" element={<MatchPage />} />
+                    <Route path="/matches" element={<AllMatches />} />
                     <Route path="/match" element={<MatchPage />} />
+                  </Routes>
+                  <Routes>
+                    <Route path="/results" element={<AllResultsPage />} />
+                  </Routes>
+                  <Routes>
+                    <Route path="/events" element={<NewEventCells />} />
                   </Routes>
                   <Routes>
                     <Route path="/createEvent" element={<CreateEventPage />} />
@@ -68,6 +77,9 @@ root.render(
                       path="/forums/threads/:threadName"
                       element={<ForumThread />}
                     />
+                  </Routes>
+                  <Routes>
+                    <Route path="/register" element={<Register />} />
                   </Routes>
                 </Router>
               </div>

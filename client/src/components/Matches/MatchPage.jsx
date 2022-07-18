@@ -7,19 +7,7 @@ import Scores from "./Scores";
 
 const MatchPage = () => {
   const [Render, setRender] = useState([]);
-  const [Info, setInfo] = useState({
-    Brackets: [],
-    Edition: [],
-    Events: [],
-    GameResults: [],
-    Matches: [],
-    Organisation: [],
-    PlayerDetails: [],
-    QualifyingScores: [],
-    Series: [],
-    Streams: [],
-    Users: [],
-  });
+  const [Info, setInfo] = useState();
 
   useEffect(() => {
     const getInfo = async () => {
@@ -27,21 +15,21 @@ const MatchPage = () => {
       setInfo(response.data);
     };
     getInfo();
-
-    console.log("connected");
   }, []);
 
   useEffect(() => {
-    setRender(
-      <div>
+    if (Info != undefined) {
+      setRender(
         <div>
-          <MatchTable info={Info} />
-        </div>
-        <div>
-          <Scores info={Info} />
-        </div>
-      </div>,
-    );
+          <div>
+            <MatchTable Info={Info} />
+          </div>
+          <div>
+            <Scores info={Info} />
+          </div>
+        </div>,
+      );
+    }
   }, [Info]);
   return Render;
 };

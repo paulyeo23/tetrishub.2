@@ -8,6 +8,10 @@ export default function initUsersModel(sequelize, DataTypes) {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
+      country: {
+        allowNull: false,
+        type: DataTypes.STRING,
+      },
       username: {
         allowNull: false,
         unique: true,

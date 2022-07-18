@@ -12,7 +12,7 @@ const EventTable = ({ Info }) => {
 
   //find all events connected to matches in upcoming days
   let events = [];
-  matches.forEach((match) => {
+  Info.Matches.forEach((match) => {
     let tempEvent = Info.Events.filter((event) => {
       return event.id == match.eventid;
     });
@@ -23,19 +23,21 @@ const EventTable = ({ Info }) => {
 
   //filter for events that meet minimum importance value
   //change minimum importance value in infoFunctions.js
-  let importantevents = module.filterImportance(Allevents, "Importance");
-  importantevents = module.sortImportance(importantevents, "Importance");
-
+  let importantevents = Info.Events.slice(0, 2);
   //filter for matches that fall under the important events array
   let importantMatches = [];
   importantevents.forEach((event) => {
     importantMatches.push({
       eventId: event.id,
-      matches: matches.filter((match) => {
+      matches: Info.Matches.filter((match) => {
         return match.eventId == event.id;
       }),
     });
   });
+
+  if ((importantMatches.length = 0)) {
+    return Render;
+  }
 
   let matchWeek = [];
 
@@ -78,8 +80,8 @@ const EventTable = ({ Info }) => {
         </th>,
       );
     }
+    return weekHeader;
   };
-
   const eventWeek = [];
   matchWeek.forEach((event) => {
     let tempWeek = [];
@@ -148,7 +150,7 @@ const EventTable = ({ Info }) => {
   Render = [
     <div class="guide-scroll" bis_skin_checked="1">
       <table class="guide-table">
-        <thead>{weekHeader}</thead>
+        <thead>{generateWeekHeader()}</thead>
         <tbody>{eventWeek}</tbody>
       </table>
     </div>,

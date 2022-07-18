@@ -50,7 +50,7 @@ const EventCells = () => {
 
   //arranges from lowest datetime to highest datetime
   const arrangeEventsByTiming = (array) => {
-    console.log("arrangeEvents", AllEvents);
+
     if (AllEvents.length > 0) {
       return array.sort(function (a, b) {
         return new Date(a.Startdate) - new Date(b.Startdate);
@@ -110,7 +110,7 @@ const EventCells = () => {
 
     if (AllEvents.length > 0) {
       let message = [];
-      console.log("eventcells", AllEvents);
+
       const eventsByMonths = {};
       const EventsSorted = arrangeEventsByTiming(AllEvents);
 

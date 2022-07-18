@@ -26,7 +26,6 @@ const OngoingEvents = () => {
     };
     getInfo();
 
-    console.log("connected");
   }, []);
 
     useEffect(() => {

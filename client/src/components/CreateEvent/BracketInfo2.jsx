@@ -24,7 +24,7 @@ const EventBracketsInfo = (info) => {
       ...prev,
       [name]: value,
     }));
-    console.log(Stage);
+
   }
 
   function generateGroupStageForm() {

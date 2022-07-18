@@ -28,11 +28,11 @@ const CreateEventPage = () => {
     };
     getInfo();
 
-    console.log("connected");
+
   }, []);
 
   useEffect(() => {
-    console.log("Triggered");
+
     setRender(
       <div>
         <div>

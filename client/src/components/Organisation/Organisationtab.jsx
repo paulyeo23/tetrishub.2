@@ -30,7 +30,6 @@ const OrganisationTab = () => {
   const { orgName } = useParams();
 
   function changeTab(e) {
-    console.log(e.target.value);
     setTab(e.target.value);
   }
 
@@ -39,7 +38,6 @@ const OrganisationTab = () => {
       setInfo(response.data);
     });
 
-    console.log("connected");
   }, []);
 
   useEffect(() => {

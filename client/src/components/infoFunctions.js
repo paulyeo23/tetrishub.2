@@ -142,14 +142,17 @@ export const getEventName = (Events, eventId) => {
 };
 
 export const getEvent = (Events, eventId) => {
-  return Events.filter((info) => {
+  let answer = Events.filter((info) => {
     return info.id == eventId;
   })[0];
+  return answer == undefined ? {} : answer;
 };
 
 export const getPlayerFlag = (player) => {
-  console.log("player", player);
   let address;
+  if (player.country == undefined) {
+    player.country = "XXX";
+  }
   // console.log(playerObj.Country);
   if (player.country == "USA" && player.state != null) {
     return `flags/usflags/${player.state}.png`;
@@ -170,7 +173,7 @@ export const getPlayer = (PlayerDetails, playerId) => {
     return Player.id == playerId;
   })[0];
 
-  return player;
+  return player == undefined ? {} : player;
 };
 
 export const calculateTimeLeft = (date) => {
@@ -207,14 +210,16 @@ export const calculateTimeLeft = (date) => {
 };
 
 export const getPlayerPhoto = (PlayerDetails, playerId) => {
-  const player = PlayerDetails.filter((Players) => {
+  let player = PlayerDetails.filter((Players) => {
     return Players.id === playerId;
   })[0];
-  console.log(player);
-  if (player.Photo == true) {
-    return `http://localhost:3001/profile/${player.country}.png`;
+  if (player == undefined) {
+    player = {};
+  }
+  if (player.photo == true) {
+    return `http://localhost:3001/profile/${player.alias}.png`;
   } else {
-    return `http://localhost:3001/profile/placeholder.svg`;
+    return `http://localhost:3001/profile/player_silhouette.webp`;
   }
 };
 

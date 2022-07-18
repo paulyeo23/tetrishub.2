@@ -3,38 +3,25 @@ import { NavigationBar } from "../NavigationBar/NavigationBar";
 import axios from "axios";
 import * as module from "../infoFunctions";
 
-const MatchCells = (Info) => {
+const MatchCells = ({ info }) => {
+  const Info = info;
+
   //render upcoming matches cells
-  useEffect(() => {
-    const getInfo = async () => {
-      const response = await axios("http://localhost:3001/");
-      if (Info == response.data) {
-        console.log("return");
-        return;
-      }
-      setInfo(response.data);
-      setLoading(false);
-    };
-    getInfo();
-    console.log("connected");
-    console.log(Info);
-  }, []);
-  //render upcoming matches cells
-  useEffect(() => {
+  const LiveCells = () => {
     const upcomingMatches = Info.Matches.filter((match) => {
       return match.Live == false && match.Completed == false;
     });
     const cellDetails = {};
     const RenderCells = [];
     upcomingMatches.forEach((match) => {
-      // module.getPlayerAlias(Info,playerId)
+      // module.getPlayeralias(Info,playerId)
       const matchDetails = {
         matchId: match.id,
         bestOf: match.BestOf,
-        matchTime: module.getTimeObj(new Date(match.DateTime)),
+        matchTime: module.getTimeObj(new Date(match.dateTime)),
         player1: module.getPlayer(Info.PlayerDetails, match.player1Id),
         player2: module.getPlayer(Info.PlayerDetails, match.player2Id),
-        event: module.getEvent(Info.Events, match.EventId),
+        event: module.getEvent(Info.Events, match.eventId),
       };
 
       const date = `${matchDetails.matchTime.dayName} ${matchDetails.matchTime.month}-${matchDetails.matchTime.day}-${matchDetails.matchTime.year}`;
@@ -44,115 +31,65 @@ const MatchCells = (Info) => {
       }
       cellDetails[date].push(matchDetails);
     });
-    console.log(cellDetails);
+
     for (let date in cellDetails) {
-      console.log(date);
       let cells = [];
       cellDetails[date].forEach((matchDetails) => {
         cells.push(
-          <div
-            className="upcomingMatch "
-            style={{
-              paddingTop: "1px",
-              paddingBottom: "01px",
-            }}
-          >
+          <div className="upcomingMatch removeBackground" bis_skin_checked="1">
             <a
               href={`/match/?matches=${matchDetails.matchId}`}
-              className="match"
+              className="match a-reset"
+              bis_skin_checked="1"
             >
-              <div
-                className="d-flex flex-row MatchCell"
-                style={{
-                  paddingTop: "5px",
-                  paddingBottom: "5px",
-                  backgroundColor: "white",
-                  borderColor: "black",
-                  borderStyle: "solid",
-                  borderWidth: "thin",
-                }}
-              >
-                <div className="col matchInfo" bis_skin_checked="1">
+              <div className="matchInfo" bis_skin_checked="1">
+                <div className="matchTime" bis_skin_checked="1">
+                  {`${matchDetails.matchTime.hour}:${matchDetails.matchTime.minutes}`}
+                </div>
+                <div className="matchMeta" bis_skin_checked="1">
+                  bo{matchDetails.bestOf}
+                </div>
+              </div>
+              <div className="matchTeams text-ellipsis" bis_skin_checked="1">
+                <div className="matchTeam team1" bis_skin_checked="1">
+                  <div className="matchTeamLogoContainer" bis_skin_checked="1">
+                    <img
+                      alt={matchDetails.player1.alias}
+                      className="matchTeamLogo"
+                      title={matchDetails.player1.alias}
+                      src={module.getPlayerPhoto(
+                        Info.PlayerDetails,
+                        matchDetails.player1.id,
+                      )}
+                    />
+                  </div>
                   <div
-                    className="row matchTime"
-                    data-time-format="HH:mm"
+                    className="matchTeamName text-ellipsis"
                     bis_skin_checked="1"
                   >
-                    {`${matchDetails.matchTime.hour}:${matchDetails.matchTime.minutes}`}
+                    {matchDetails.player1.alias}
                   </div>
-                  <div className="matchRating" bis_skin_checked="1">
-                    <i className="fa fa-star faded"></i>
-                    <i className="fa fa-star faded"></i>
-                    <i className="fa fa-star faded"></i>
-                    <i className="fa fa-star faded"></i>
-                    <i className="fa fa-star faded"></i>
+                </div>
+                <div className="matchTeam team2" bis_skin_checked="1">
+                  <div className="team text-ellipsis" bis_skin_checked="1">
+                    {matchDetails.player2.alias}
                   </div>
-                  <div className="row matchMeta" bis_skin_checked="1">
-                    Bo: {matchDetails.bestOf}
-                  </div>
+                </div>
+              </div>
+              <div className="matchEvent" bis_skin_checked="1">
+                <div className="matchEventLogoContainer" bis_skin_checked="1">
+                  <img
+                    alt={matchDetails.event.name}
+                    className="matchEventLogo"
+                    title={matchDetails.event.name}
+                    src="https://img-cdn.hltv.org/eventlogo/rRntRkBOKXzHoiJq6Tuk-c.png?ixlib=java-2.1.0&amp;w=50&amp;s=37fc6e5707ac02ad52fc76df4a5dc5bb"
+                  />
                 </div>
                 <div
-                  className="col matchTeams text-ellipsis"
+                  className="matchEventName gtSmartphone-only"
                   bis_skin_checked="1"
                 >
-                  <div className="row matchTeam team1" bis_skin_checked="1">
-                    <div
-                      className="matchTeamLogoContainer"
-                      bis_skin_checked="1"
-                    >
-                      <img
-                        className="playerFlag"
-                        src={`http://localhost:3001/${module.getPlayerFlag(
-                          matchDetails.player1,
-                        )}`}
-                        width="30"
-                        height="20"
-                      />
-                      <img className="matchTeamLogo night-only" />
-                    </div>
-                    <div
-                      className=" matchTeamName text-ellipsis"
-                      bis_skin_checked="1"
-                    >
-                      {matchDetails.player1.Alias}
-                    </div>
-                  </div>
-                  <div className="row  matchTeam team2" bis_skin_checked="1">
-                    <div
-                      className="matchTeamLogoContainer"
-                      bis_skin_checked="1"
-                    >
-                      <img
-                        className="playerFlag"
-                        src={`http://localhost:3001/${module.getPlayerFlag(
-                          matchDetails.player2,
-                        )}`}
-                        width="30"
-                        height="20"
-                      />
-                    </div>
-                    <div
-                      className="matchTeamName text-ellipsis"
-                      bis_skin_checked="1"
-                    >
-                      {matchDetails.player2.Alias}
-                    </div>
-                  </div>
-                </div>
-                <div className="col matchEvent" bis_skin_checked="1">
-                  <div
-                    className="row matchEventLogoContainer"
-                    bis_skin_checked="1"
-                  >
-                    <img className="matchEventLogo day-only" />
-                    <img className="matchEventLogo night-only" />
-                  </div>
-                  <div
-                    className="matchEventName gtSmartphone-only"
-                    bis_skin_checked="1"
-                  >
-                    {matchDetails.event.Name}
-                  </div>
+                  {matchDetails.event.name}
                 </div>
               </div>
             </a>
@@ -166,139 +103,171 @@ const MatchCells = (Info) => {
         </div>,
       ]);
     }
-    setUpcomingCells(RenderCells);
-  }, [Loading]);
+  };
 
   //render live matches cells
-  useEffect(() => {
+  const UpcomingCells = () => {
+    const emptyPlayer = {
+      id: null,
+      userId: null,
+      elo: null,
+      photo: null,
+      firstName: null,
+      lastName: null,
+      alias: "null",
+      birthdate: null,
+      homeTown: null,
+      profile: null,
+      country: "USA",
+      state: null,
+      playstyle: null,
+      pb: null,
+    };
+    const emptyEvent = {
+      id: 267,
+      editionId: 1,
+      permissionId: 1,
+      name: null,
+      location: null,
+      country: null,
+      startDate: "2021-07-20T12:00:00.000Z",
+      endDate: "2021-07-20T12:00:00.000Z",
+      timezone: null,
+      ongoing: true,
+      concluded: true,
+      importance: 0,
+      playerCount: null,
+      tournamentStructure: null,
+      seedingMethod: 1,
+      prizeCash: null,
+      prizeOther: null,
+      versionId: null,
+    };
     const liveMatches = Info.Matches.filter((match) => {
       return match.live == true && match.completed == false;
     });
     const cellDetails = {};
     const RenderCells = [];
     liveMatches.forEach((match) => {
-      // module.getPlayerAlias(Info,playerId)
+      // module.getPlayeralias(Info,playerId)
       const matchDetails = {
         matchId: match.id,
-        bestOf: match.BestOf,
-        matchTime: module.getTimeObj(new Date(match.DateTime)),
-        player1: module.getPlayer(Info.PlayerDetails, match.player1Id),
-        player2: module.getPlayer(Info.PlayerDetails, match.player2Id),
-        event: module.getEvent(Info.Events, match.EventId),
+        bestOf: match.bestOf,
+        matchTime: module.getTimeObj(new Date(match.dateTime)),
+        player1:
+          module.getPlayer(Info.PlayerDetails, match.player1Id) == undefined
+            ? emptyPlayer
+            : module.getPlayer(Info.PlayerDetails, match.player1Id),
+        player2:
+          module.getPlayer(Info.PlayerDetails, match.player2Id) == undefined
+            ? emptyPlayer
+            : module.getPlayer(Info.PlayerDetails, match.player2Id),
+        event:
+          module.getEvent(Info.Events, match.eventId) == undefined
+            ? emptyEvent
+            : module.getEvent(Info.Events, match.eventId),
       };
+
       RenderCells.push(
-        <div
-          className="upcomingMatch "
-          style={{
-            paddingTop: "1px",
-            paddingBottom: "01px",
-          }}
-        >
-          <a href={`/match/?matches=${matchDetails.matchId}`} className="match">
-            <div
-              className="d-flex flex-row MatchCell"
-              style={{
-                paddingTop: "5px",
-                paddingBottom: "5px",
-                backgroundColor: "white",
-                borderColor: "black",
-                borderStyle: "solid",
-                borderWidth: "thin",
-              }}
+        <div className="liveMatch-container" bis_skin_checked="1">
+          <div
+            className="liveMatch"
+            data-livescore-match="2357152"
+            bis_skin_checked="1"
+          >
+            <a
+              href={`/match/?matches=${matchDetails.matchId}`}
+              className="match a-reset"
+              bis_skin_checked="1"
             >
-              <div className="col matchInfo" bis_skin_checked="1">
-                <div
-                  className="row Live"
-                  data-time-format="HH:mm"
-                  bis_skin_checked="1"
-                >
+              <div className="matchInfo" bis_skin_checked="1">
+                <div className="matchTime matchLive" bis_skin_checked="1">
                   LIVE
                 </div>
-                <div className="matchRating" bis_skin_checked="1">
-                  <i className="fa fa-star faded"></i>
-                  <i className="fa fa-star faded"></i>
-                  <i className="fa fa-star faded"></i>
-                  <i className="fa fa-star faded"></i>
-                  <i className="fa fa-star faded"></i>
-                </div>
-                <div className="row matchMeta" bis_skin_checked="1">
-                  Bo: {matchDetails.bestOf}
+                <div className="matchMeta" bis_skin_checked="1">
+                  bo{matchDetails.bestOf}
                 </div>
               </div>
-              <div
-                className="col matchTeams text-ellipsis"
-                bis_skin_checked="1"
-              >
-                <div className="row matchTeam team1" bis_skin_checked="1">
+              <div className="matchTeams text-ellipsis" bis_skin_checked="1">
+                <div className="matchTeam" bis_skin_checked="1">
                   <div className="matchTeamLogoContainer" bis_skin_checked="1">
                     <img
-                      className="playerFlag"
+                      alt={matchDetails.player1.alias}
+                      className="matchTeamLogo"
+                      title={matchDetails.player1.alias}
                       src={`http://localhost:3001/${module.getPlayerFlag(
                         matchDetails.player1,
                       )}`}
-                      width="30"
-                      height="20"
-                    />
-                    <img className="matchTeamLogo night-only" />
-                  </div>
-                  <div
-                    className=" matchTeamName text-ellipsis"
-                    bis_skin_checked="1"
-                  >
-                    {matchDetails.player1.Alias}
-                  </div>
-                </div>
-                <div className="row  matchTeam team2" bis_skin_checked="1">
-                  <div className="matchTeamLogoContainer" bis_skin_checked="1">
-                    <img
-                      className="playerFlag"
-                      src={`http://localhost:3001/${module.getPlayerFlag(
-                        matchDetails.player2,
-                      )}`}
-                      width="30"
-                      height="20"
                     />
                   </div>
                   <div
                     className="matchTeamName text-ellipsis"
                     bis_skin_checked="1"
                   >
-                    {matchDetails.player2.Alias}
+                    {matchDetails.player1.alias}
+                  </div>
+                  <div className="matchTeamScore" bis_skin_checked="1">
+                    <span className="currentMapScore trailing">
+                      {match.player1Score}
+                    </span>
+                  </div>
+                </div>
+                <div className="matchTeam" bis_skin_checked="1">
+                  <div className="matchTeamLogoContainer" bis_skin_checked="1">
+                    <img
+                      alt={matchDetails.player2.alias}
+                      className="matchTeamLogo"
+                      title={matchDetails.player2.alias}
+                      src={`http://localhost:3001/${module.getPlayerFlag(
+                        matchDetails.player2,
+                      )}`}
+                    />
+                  </div>
+                  <div
+                    className="matchTeamName text-ellipsis"
+                    bis_skin_checked="1"
+                  >
+                    {matchDetails.player2.alias}
+                  </div>
+                  <div className="matchTeamScore" bis_skin_checked="1">
+                    <span className="currentMapScore leading">
+                      {match.player2Score}
+                    </span>
                   </div>
                 </div>
               </div>
-              <div className="col matchEvent" bis_skin_checked="1">
-                <div
-                  className="row matchEventLogoContainer"
-                  bis_skin_checked="1"
-                >
-                  <img className="matchEventLogo day-only" />
-                  <img className="matchEventLogo night-only" />
+              <div className="matchEvent " bis_skin_checked="1">
+                <div className="matchEventLogoContainer" bis_skin_checked="1">
+                  <img
+                    alt={matchDetails.event.name}
+                    className="matchEventLogo day-only"
+                    title={matchDetails.event.name}
+                    src={`http://localhost:3001/flags`}
+                  />
                 </div>
                 <div
                   className="matchEventName gtSmartphone-only"
                   bis_skin_checked="1"
                 >
-                  {matchDetails.event.Name}
+                  {matchDetails.event.name}
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>,
       );
     });
-    setLiveCells(RenderCells);
-  }, [Loading]);
+  };
 
   return [
     <div>
       <div>
         <div>Live Matches</div>
-        <div>{LiveCells}</div>
+        <div>{LiveCells()}</div>
       </div>
       <div>
         <div>Upcoming Matches</div>
-        <div>{UpcomingCells}</div>
+        <div>{UpcomingCells()}</div>
       </div>
     </div>,
   ];
