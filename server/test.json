@@ -1,0 +1,5339 @@
+[
+  {
+    "name": "CTWC 2010",
+    "startDate": "9-8-2010 0:00",
+    "endDate": "9-8-2010 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2011",
+    "startDate": "16-10-2011 22:00:00",
+    "endDate": "16-10-2011 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2012",
+    "startDate": "30-09-2012 23:00:00",
+    "endDate": "30-09-2012 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2013",
+    "startDate": "6-10-2013 22:20",
+    "endDate": "6-10-2013 22:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2014",
+    "startDate": "19-10-2014 23:20:00",
+    "endDate": "19-10-2014 23:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2015",
+    "startDate": "18-10-2015 23:20:00",
+    "endDate": "18-10-2015 23:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "GDQ Hotfix 2016",
+    "startDate": "9-10-2016 21:30",
+    "endDate": "9-10-2016 21:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2016",
+    "startDate": "23-10-2016 23:20:00",
+    "endDate": "23-10-2016 23:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Singapore 2017",
+    "startDate": "16-09-2017 09:00:00",
+    "endDate": "16-09-2017 09:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2017",
+    "startDate": "22-10-2017 23:20:00",
+    "endDate": "22-10-2017 23:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Dec-17",
+    "startDate": "1-12-2017 22:20",
+    "endDate": "1-12-2017 22:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jan-18",
+    "startDate": "6-1-2018 22:40",
+    "endDate": "6-1-2018 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "AGDQ 2018",
+    "startDate": "10-1-2018 0:00",
+    "endDate": "10-1-2018 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ WestCoast 2018",
+    "startDate": "21-01-2018 14:00:00",
+    "endDate": "21-01-2018 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Feb-18",
+    "startDate": "3-2-2018 22:40",
+    "endDate": "3-2-2018 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Mar-18",
+    "startDate": "3-3-2018 22:00",
+    "endDate": "3-3-2018 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ MidEast 2018",
+    "startDate": "7-4-2018 14:00",
+    "endDate": "7-4-2018 14:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Apr-18",
+    "startDate": "7-4-2018 22:40",
+    "endDate": "7-4-2018 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Canada Manitoba 2018",
+    "startDate": "22-04-2018 20:00:00",
+    "endDate": "22-04-2018 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters May-18",
+    "startDate": "5-5-2018 22:20",
+    "endDate": "5-5-2018 22:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jun-18",
+    "startDate": "2-6-2018 21:20",
+    "endDate": "2-6-2018 21:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "SGDQ 2018",
+    "startDate": "26-06-2018 20:30:00",
+    "endDate": "26-06-2018 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jul-18",
+    "startDate": "7-7-2018 22:00",
+    "endDate": "7-7-2018 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "NeoGeo HongKong 2018 A",
+    "startDate": "27-07-2018 14:00:00",
+    "endDate": "27-07-2018 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ EastCoast 2018",
+    "startDate": "28-07-2018 14:00:00",
+    "endDate": "28-07-2018 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Southern 2018",
+    "startDate": "28-07-2018 14:00:00",
+    "endDate": "28-07-2018 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Other 2018",
+    "startDate": "6-12-2018 3:00",
+    "endDate": "6-12-2018 3:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "NeoGeo HongKong 2018 B",
+    "startDate": "28-07-2018 17:00:00",
+    "endDate": "28-07-2018 17:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Jul-18",
+    "startDate": "29-07-2018 00:00:00",
+    "endDate": "29-07-2018 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Aug-18",
+    "startDate": "5-8-2018 22:00",
+    "endDate": "5-8-2018 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Desert 2018",
+    "startDate": "11-8-2018 14:00",
+    "endDate": "11-8-2018 14:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Sep-18",
+    "startDate": "29-09-2018 04:00:00",
+    "endDate": "29-09-2018 04:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "NeoGeo Asia 2018",
+    "startDate": "30-09-2018 14:00:00",
+    "endDate": "30-09-2018 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTAO 2018",
+    "startDate": "4-10-2018 14:00",
+    "endDate": "4-10-2018 14:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Oct-18",
+    "startDate": "6-10-2018 23:20",
+    "endDate": "6-10-2018 23:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Oct-18",
+    "startDate": "15-10-2018 05:00:00",
+    "endDate": "15-10-2018 05:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2018",
+    "startDate": "21-10-2018 21:00:00",
+    "endDate": "21-10-2018 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Nov-18",
+    "startDate": "3-11-2018 22:40",
+    "endDate": "3-11-2018 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Nov-18",
+    "startDate": "19-11-2018 04:00:00",
+    "endDate": "19-11-2018 04:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Dec-18",
+    "startDate": "1-12-2018 23:00",
+    "endDate": "1-12-2018 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ WestCoast 2019",
+    "startDate": "5-1-2019 20:00",
+    "endDate": "5-1-2019 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jan-19",
+    "startDate": "5-1-2019 20:20",
+    "endDate": "5-1-2019 20:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "AGDQ 2019",
+    "startDate": "9-1-2019 5:00",
+    "endDate": "9-1-2019 5:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Jan-19",
+    "startDate": "12-1-2019 23:00",
+    "endDate": "12-1-2019 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Feb-19",
+    "startDate": "2-2-2019 20:40",
+    "endDate": "2-2-2019 20:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Feb-19",
+    "startDate": "9-2-2019 21:20",
+    "endDate": "9-2-2019 21:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Mar-19",
+    "startDate": "2-3-2019 20:40",
+    "endDate": "2-3-2019 20:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Mar-19",
+    "startDate": "9-3-2019 23:40",
+    "endDate": "9-3-2019 23:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Mar-19",
+    "startDate": "17-03-2019 02:40:00",
+    "endDate": "17-03-2019 02:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Canada NWOntario ",
+    "startDate": "30-03-2019 22:00:00",
+    "endDate": "30-03-2019 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Apr-19",
+    "startDate": "21-04-2019 00:00:00",
+    "endDate": "21-04-2019 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Apr-19",
+    "startDate": "7-4-2019 3:40",
+    "endDate": "7-4-2019 3:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Apr-19",
+    "startDate": "14-04-2019 03:40:00",
+    "endDate": "14-04-2019 03:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Canada Manitoba 2019",
+    "startDate": "21-04-2019 18:20:00",
+    "endDate": "21-04-2019 18:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community May-19",
+    "startDate": "18-05-2019 23:00:00",
+    "endDate": "18-05-2019 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters May-19",
+    "startDate": "5-5-2019 1:40",
+    "endDate": "5-5-2019 1:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Other 2019",
+    "startDate": "12-5-2019 21:00",
+    "endDate": "12-5-2019 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 0",
+    "startDate": "11-5-2019 18:00",
+    "endDate": "11-5-2019 18:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch May-19",
+    "startDate": "19-05-2019 01:40:00",
+    "endDate": "19-05-2019 01:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Best of 75 ",
+    "startDate": "8-6-2019 19:00",
+    "endDate": "8-6-2019 19:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Jun-19",
+    "startDate": "23-06-2019 00:00:00",
+    "endDate": "23-06-2019 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 1",
+    "startDate": "6-6-2019 19:30",
+    "endDate": "6-6-2019 19:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jun-19",
+    "startDate": "9-6-2019 2:00",
+    "endDate": "9-6-2019 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 2",
+    "startDate": "13-06-2019 19:30:00",
+    "endDate": "13-06-2019 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 3",
+    "startDate": "20-06-2019 21:00:00",
+    "endDate": "20-06-2019 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "NeoGeo Norway 2019",
+    "startDate": "21-06-2019 13:00:00",
+    "endDate": "21-06-2019 13:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "SGDQ 2019",
+    "startDate": "27-06-2019 03:30:00",
+    "endDate": "27-06-2019 03:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 4",
+    "startDate": "28-06-2019 20:30:00",
+    "endDate": "28-06-2019 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Canada 2019",
+    "startDate": "30-06-2019 21:30:00",
+    "endDate": "30-06-2019 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 5",
+    "startDate": "4-7-2019 19:30",
+    "endDate": "4-7-2019 19:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Jul-19",
+    "startDate": "27-07-2019 22:00:00",
+    "endDate": "27-07-2019 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jul-19",
+    "startDate": "7-7-2019 0:00",
+    "endDate": "7-7-2019 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Trial",
+    "startDate": "7-7-2019 21:20",
+    "endDate": "7-7-2019 21:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 6",
+    "startDate": "11-7-2019 21:00",
+    "endDate": "11-7-2019 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "NeoGeo Taipei 2019",
+    "startDate": "14-07-2019 05:00:00",
+    "endDate": "14-07-2019 05:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Other ",
+    "startDate": "31-12-2019 02:00:00",
+    "endDate": "31-12-2019 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Season 1",
+    "startDate": "14-10-2019 07:30:00",
+    "endDate": "14-10-2019 07:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 7",
+    "startDate": "18-07-2019 21:00:00",
+    "endDate": "18-07-2019 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Singapore 2019",
+    "startDate": "20-07-2019 12:00:00",
+    "endDate": "20-07-2019 12:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Jul-19",
+    "startDate": "31-07-2019 23:00:00",
+    "endDate": "31-07-2019 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 9",
+    "startDate": "1-8-2019 20:40",
+    "endDate": "1-8-2019 20:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Aug-19",
+    "startDate": "1-9-2019 0:00",
+    "endDate": "1-9-2019 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ EastCoast 2019",
+    "startDate": "4-8-2019 20:00",
+    "endDate": "4-8-2019 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 10",
+    "startDate": "8-8-2019 20:30",
+    "endDate": "8-8-2019 20:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Southern 2019",
+    "startDate": "10-8-2019 23:00",
+    "endDate": "10-8-2019 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Desert 2019",
+    "startDate": "11-8-2019 23:00",
+    "endDate": "11-8-2019 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Trial",
+    "startDate": "30-08-2019 20:10:00",
+    "endDate": "30-08-2019 20:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 11",
+    "startDate": "15-08-2019 19:45:00",
+    "endDate": "15-08-2019 19:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Aug-19",
+    "startDate": "18-08-2019 02:00:00",
+    "endDate": "18-08-2019 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Aug-19",
+    "startDate": "19-08-2019 00:40:00",
+    "endDate": "19-08-2019 00:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 12",
+    "startDate": "22-08-2019 19:00:00",
+    "endDate": "22-08-2019 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTAO 2019",
+    "startDate": "24-08-2019 03:00:00",
+    "endDate": "24-08-2019 03:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Germany 2019",
+    "startDate": "24-08-2019 18:00:00",
+    "endDate": "24-08-2019 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTXYZ ",
+    "startDate": "31-08-2019 20:20:00",
+    "endDate": "31-08-2019 20:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 13",
+    "startDate": "29-08-2019 21:00:00",
+    "endDate": "29-08-2019 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 1",
+    "startDate": "26-10-2019 02:30:00",
+    "endDate": "26-10-2019 02:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Sep-19",
+    "startDate": "3-10-2019 3:00",
+    "endDate": "3-10-2019 3:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 14",
+    "startDate": "5-9-2019 19:20",
+    "endDate": "5-9-2019 19:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Sep-19",
+    "startDate": "30-09-2019 20:30:00",
+    "endDate": "30-09-2019 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Sep-19",
+    "startDate": "8-9-2019 2:00",
+    "endDate": "8-9-2019 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Vancouver 2019",
+    "startDate": "14-09-2019 22:20:00",
+    "endDate": "14-09-2019 22:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Sep-19",
+    "startDate": "16-09-2019 02:00:00",
+    "endDate": "16-09-2019 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 15",
+    "startDate": "19-09-2019 19:10:00",
+    "endDate": "19-09-2019 19:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ NewEngland 2019",
+    "startDate": "28-09-2019 23:00:00",
+    "endDate": "28-09-2019 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Oct-19",
+    "startDate": "2-11-2019 20:00",
+    "endDate": "2-11-2019 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Oct-19",
+    "startDate": "6-10-2019 2:00",
+    "endDate": "6-10-2019 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Oct-19",
+    "startDate": "2-11-2019 19:15",
+    "endDate": "2-11-2019 19:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2019",
+    "startDate": "21-10-2019 23:00:00",
+    "endDate": "21-10-2019 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Season 2",
+    "startDate": "30-03-2020 05:20:00",
+    "endDate": "30-03-2020 05:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 2",
+    "startDate": "11-12-2019 1:20",
+    "endDate": "11-12-2019 1:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 17",
+    "startDate": "31-10-2019 21:50:00",
+    "endDate": "31-10-2019 21:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "International Friendlies ",
+    "startDate": "24-03-2020 21:00:00",
+    "endDate": "24-03-2020 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Nov-19",
+    "startDate": "2-11-2019 23:45",
+    "endDate": "2-11-2019 23:45",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Nov-19",
+    "startDate": "30-11-2019 22:30:00",
+    "endDate": "30-11-2019 22:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Nov-19",
+    "startDate": "30-11-2019 19:45:00",
+    "endDate": "30-11-2019 19:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 18",
+    "startDate": "7-11-2019 22:00",
+    "endDate": "7-11-2019 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "UK Meeting Nov-19",
+    "startDate": "9-11-2019 20:00",
+    "endDate": "9-11-2019 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S1 Gladiator",
+    "startDate": "8-12-2019 23:00",
+    "endDate": "8-12-2019 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Brawl ",
+    "startDate": "12-6-2022 22:40",
+    "endDate": "12-6-2022 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S1 Contender",
+    "startDate": "25-11-2019 03:00:00",
+    "endDate": "25-11-2019 03:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Mod Cup ",
+    "startDate": "17-11-2019 00:20:00",
+    "endDate": "17-11-2019 00:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Nov-19",
+    "startDate": "17-11-2019 00:00:00",
+    "endDate": "17-11-2019 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 19",
+    "startDate": "21-11-2019 21:00:00",
+    "endDate": "21-11-2019 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment 20",
+    "startDate": "29-11-2019 20:30:00",
+    "endDate": "29-11-2019 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Dec-19",
+    "startDate": "28-12-2019 19:30:00",
+    "endDate": "28-12-2019 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Dec-19",
+    "startDate": "28-12-2019 21:00:00",
+    "endDate": "28-12-2019 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Dec-19",
+    "startDate": "8-12-2019 1:30",
+    "endDate": "8-12-2019 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 3",
+    "startDate": "4-2-2020 2:15",
+    "endDate": "4-2-2020 2:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Friendlies ",
+    "startDate": "15-07-2022 00:35:00",
+    "endDate": "15-07-2022 00:35:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jan-20",
+    "startDate": "25-01-2020 21:00:00",
+    "endDate": "25-01-2020 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Jan-20",
+    "startDate": "25-01-2020 19:00:00",
+    "endDate": "25-01-2020 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jan-20",
+    "startDate": "4-1-2020 23:20",
+    "endDate": "4-1-2020 23:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jan-20",
+    "startDate": "25-01-2020 23:00:00",
+    "endDate": "25-01-2020 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Jan-20",
+    "startDate": "20-01-2020 02:30:00",
+    "endDate": "20-01-2020 02:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 4",
+    "startDate": "22-03-2020 02:00:00",
+    "endDate": "22-03-2020 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Feb-20",
+    "startDate": "1-2-2020 22:40",
+    "endDate": "1-2-2020 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community Feb-20",
+    "startDate": "29-02-2020 20:30:00",
+    "endDate": "29-02-2020 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Feb-20",
+    "startDate": "1-3-2020 0:00",
+    "endDate": "1-3-2020 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Feb-20",
+    "startDate": "29-02-2020 22:30:00",
+    "endDate": "29-02-2020 22:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Luxembourg Feb-20",
+    "startDate": "9-2-2020 21:00",
+    "endDate": "9-2-2020 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Feb-20",
+    "startDate": "17-02-2020 04:30:00",
+    "endDate": "17-02-2020 04:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E2",
+    "startDate": "19-02-2020 20:15:00",
+    "endDate": "19-02-2020 20:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E4",
+    "startDate": "4-3-2020 22:00",
+    "endDate": "4-3-2020 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Mar-20",
+    "startDate": "29-03-2020 18:30:00",
+    "endDate": "29-03-2020 18:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Mar-20",
+    "startDate": "29-03-2020 17:30:00",
+    "endDate": "29-03-2020 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Mar-20",
+    "startDate": "29-03-2020 20:00:00",
+    "endDate": "29-03-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Mar-20",
+    "startDate": "29-03-2020 21:30:00",
+    "endDate": "29-03-2020 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Mar-20",
+    "startDate": "8-3-2020 0:00",
+    "endDate": "8-3-2020 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Kingsman Invitational Mar-20",
+    "startDate": "29-03-2020 21:00:00",
+    "endDate": "29-03-2020 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E5",
+    "startDate": "11-3-2020 23:30",
+    "endDate": "11-3-2020 23:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E6",
+    "startDate": "18-03-2020 22:00:00",
+    "endDate": "18-03-2020 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 5",
+    "startDate": "10-5-2020 2:00",
+    "endDate": "10-5-2020 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Mar-20",
+    "startDate": "21-03-2020 05:30:00",
+    "endDate": "21-03-2020 05:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S2 Contender",
+    "startDate": "19-04-2020 21:00:00",
+    "endDate": "19-04-2020 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S2 Gladiator",
+    "startDate": "4-5-2020 0:00",
+    "endDate": "4-5-2020 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Apr-20",
+    "startDate": "25-04-2020 20:30:00",
+    "endDate": "25-04-2020 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Apr-20",
+    "startDate": "25-04-2020 18:30:00",
+    "endDate": "25-04-2020 18:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Apr-20",
+    "startDate": "25-04-2020 19:30:00",
+    "endDate": "25-04-2020 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Apr-20",
+    "startDate": "25-04-2020 21:30:00",
+    "endDate": "25-04-2020 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Exhibition Exhibition match",
+    "startDate": "3-4-2020 23:02",
+    "endDate": "3-4-2020 23:02",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Apr-20",
+    "startDate": "25-04-2020 17:30:00",
+    "endDate": "25-04-2020 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Apr-20",
+    "startDate": "4-4-2020 22:00",
+    "endDate": "4-4-2020 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Russia (1st Tourney) ",
+    "startDate": "14-04-2020 12:43:12",
+    "endDate": "14-04-2020 12:43:12",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch Apr-20",
+    "startDate": "20-04-2020 03:30:00",
+    "endDate": "20-04-2020 03:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E10",
+    "startDate": "22-04-2020 19:00:00",
+    "endDate": "22-04-2020 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Exhibition Triple Threat",
+    "startDate": "23-04-2020 21:43:12",
+    "endDate": "23-04-2020 21:43:12",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Kingsman Invitational May-20",
+    "startDate": "17-05-2020 23:30:00",
+    "endDate": "17-05-2020 23:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Japan Lite 2020",
+    "startDate": "26-04-2020 08:30:00",
+    "endDate": "26-04-2020 08:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 May-20",
+    "startDate": "30-05-2020 13:00:00",
+    "endDate": "30-05-2020 13:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters May-20",
+    "startDate": "2-5-2020 20:00",
+    "endDate": "2-5-2020 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 May-20",
+    "startDate": "30-05-2020 15:00:00",
+    "endDate": "30-05-2020 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures May-20",
+    "startDate": "30-05-2020 16:30:00",
+    "endDate": "30-05-2020 16:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 May-20",
+    "startDate": "30-05-2020 12:00:00",
+    "endDate": "30-05-2020 12:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 May-20",
+    "startDate": "30-05-2020 14:00:00",
+    "endDate": "30-05-2020 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers May-20",
+    "startDate": "30-05-2020 18:00:00",
+    "endDate": "30-05-2020 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Season 3",
+    "startDate": "13-08-2020 22:00:00",
+    "endDate": "13-08-2020 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams May-20",
+    "startDate": "24-05-2020 14:30:00",
+    "endDate": "24-05-2020 14:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 6",
+    "startDate": "29-06-2020 00:10:00",
+    "endDate": "29-06-2020 00:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E16",
+    "startDate": "27-05-2020 20:45:00",
+    "endDate": "27-05-2020 20:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Poland Lite 2020",
+    "startDate": "31-05-2020 21:15:00",
+    "endDate": "31-05-2020 21:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Kingsman Invitational Edition 2",
+    "startDate": "31-05-2020 20:00:00",
+    "endDate": "31-05-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Asia Trial",
+    "startDate": "27-06-2020 15:00:00",
+    "endDate": "27-06-2020 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment ",
+    "startDate": "3-6-2020 19:00",
+    "endDate": "3-6-2020 19:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Jun-20",
+    "startDate": "22-06-2020 22:00:00",
+    "endDate": "22-06-2020 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jun-20",
+    "startDate": "27-06-2020 20:00:00",
+    "endDate": "27-06-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jun-20",
+    "startDate": "27-06-2020 18:30:00",
+    "endDate": "27-06-2020 18:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jun-20",
+    "startDate": "27-06-2020 17:30:00",
+    "endDate": "27-06-2020 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jun-20",
+    "startDate": "27-06-2020 18:00:00",
+    "endDate": "27-06-2020 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jun-20",
+    "startDate": "27-06-2020 22:00:00",
+    "endDate": "27-06-2020 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Russia (2nd Tourney) ",
+    "startDate": "7-6-2020 13:30",
+    "endDate": "7-6-2020 13:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Jun-20",
+    "startDate": "27-06-2020 17:00:00",
+    "endDate": "27-06-2020 17:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jun-20",
+    "startDate": "6-6-2020 22:40",
+    "endDate": "6-6-2020 22:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Battles ",
+    "startDate": "12-7-2022 20:00",
+    "endDate": "12-7-2022 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Deathmatch ",
+    "startDate": "3-7-2022 21:00",
+    "endDate": "3-7-2022 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Eat my Elo ",
+    "startDate": "17-07-2022 05:55:21",
+    "endDate": "17-07-2022 05:55:21",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit Jun-20",
+    "startDate": "28-06-2020 21:00:00",
+    "endDate": "28-06-2020 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 7",
+    "startDate": "17-08-2020 22:20:00",
+    "endDate": "17-08-2020 22:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Asia Jul-20",
+    "startDate": "31-07-2020 20:30:00",
+    "endDate": "31-07-2020 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Jul-20",
+    "startDate": "28-07-2020 19:00:00",
+    "endDate": "28-07-2020 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 Ep20",
+    "startDate": "2-7-2020 21:00",
+    "endDate": "2-7-2020 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Beat the King ",
+    "startDate": "29-03-2021 21:30:00",
+    "endDate": "29-03-2021 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open ",
+    "startDate": "26-07-2020 00:35:00",
+    "endDate": "26-07-2020 00:35:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Aug-20",
+    "startDate": "1-8-2020 22:05",
+    "endDate": "1-8-2020 22:05",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Aug-20",
+    "startDate": "29-08-2020 17:30:00",
+    "endDate": "29-08-2020 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Aug-20",
+    "startDate": "29-08-2020 17:00:00",
+    "endDate": "29-08-2020 17:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Aug-20",
+    "startDate": "29-08-2020 18:00:00",
+    "endDate": "29-08-2020 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Aug-20",
+    "startDate": "29-08-2020 18:30:00",
+    "endDate": "29-08-2020 18:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Exhibition ",
+    "startDate": "28-03-2021 01:00:00",
+    "endDate": "28-03-2021 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Aug-20",
+    "startDate": "29-08-2020 20:00:00",
+    "endDate": "29-08-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Aug-20",
+    "startDate": "29-08-2020 20:00:00",
+    "endDate": "29-08-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Asia Aug-20",
+    "startDate": "9-10-2020 2:00",
+    "endDate": "9-10-2020 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S3 Contenders",
+    "startDate": "6-9-2020 19:30",
+    "endDate": "6-9-2020 19:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Aug-20",
+    "startDate": "8-8-2020 23:50",
+    "endDate": "8-8-2020 23:50",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S3 Intermediary",
+    "startDate": "8-9-2020 21:15",
+    "endDate": "8-9-2020 21:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit ",
+    "startDate": "4-10-2020 21:15",
+    "endDate": "4-10-2020 21:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Kingsman Invitational CTWCQ",
+    "startDate": "9-8-2021 0:00",
+    "endDate": "9-8-2021 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet S3 Gladiator",
+    "startDate": "13-09-2020 21:30:00",
+    "endDate": "13-09-2020 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Friendlies: Rivals ",
+    "startDate": "26-09-2020 01:00:00",
+    "endDate": "26-09-2020 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTG Open ",
+    "startDate": "23-08-2020 21:25:00",
+    "endDate": "23-08-2020 21:25:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 8",
+    "startDate": "6-10-2020 1:32",
+    "endDate": "6-10-2020 1:32",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 Ep26",
+    "startDate": "19-08-2020 20:30:00",
+    "endDate": "19-08-2020 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM CTWC 2020 Qualifier",
+    "startDate": "30-08-2020 04:15:00",
+    "endDate": "30-08-2020 04:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Europe ",
+    "startDate": "30-08-2020 20:40:00",
+    "endDate": "30-08-2020 20:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Sep-20",
+    "startDate": "26-09-2020 18:00:00",
+    "endDate": "26-09-2020 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League CTLQ",
+    "startDate": "5-9-2021 23:40",
+    "endDate": "5-9-2021 23:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 Ep27",
+    "startDate": "2-9-2020 19:30",
+    "endDate": "2-9-2020 19:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Sep-20",
+    "startDate": "21-09-2020 20:00:00",
+    "endDate": "21-09-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Sep-20",
+    "startDate": "26-09-2020 17:30:00",
+    "endDate": "26-09-2020 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Sep-20",
+    "startDate": "26-09-2020 17:00:00",
+    "endDate": "26-09-2020 17:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Sep-20",
+    "startDate": "26-09-2020 19:00:00",
+    "endDate": "26-09-2020 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Sep-20",
+    "startDate": "5-9-2020 21:35",
+    "endDate": "5-9-2020 21:35",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Asia CTWCQ",
+    "startDate": "20-09-2020 13:30:00",
+    "endDate": "20-09-2020 13:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Sep-20",
+    "startDate": "12-9-2020 22:30",
+    "endDate": "12-9-2020 22:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Hong Kong 2020",
+    "startDate": "13-09-2020 15:30:00",
+    "endDate": "13-09-2020 15:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Winners Round 2",
+    "startDate": "28-09-2020 02:15:00",
+    "endDate": "28-09-2020 02:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Winners Round 1",
+    "startDate": "28-09-2020 01:30:00",
+    "endDate": "28-09-2020 01:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 3",
+    "startDate": "2-10-2020 1:30",
+    "endDate": "2-10-2020 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 1",
+    "startDate": "1-10-2020 0:15",
+    "endDate": "1-10-2020 0:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM CTWC Second Chance",
+    "startDate": "26-09-2020 22:45:00",
+    "endDate": "26-09-2020 22:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL CTWCQ 2020",
+    "startDate": "27-09-2020 21:50:00",
+    "endDate": "27-09-2020 21:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Winners Round 3",
+    "startDate": "29-09-2020 01:00:00",
+    "endDate": "29-09-2020 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Winners Round 0",
+    "startDate": "28-09-2020 01:15:00",
+    "endDate": "28-09-2020 01:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 0",
+    "startDate": "28-09-2020 02:00:00",
+    "endDate": "28-09-2020 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Winners Round 4",
+    "startDate": "2-10-2020 23:30",
+    "endDate": "2-10-2020 23:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 4",
+    "startDate": "3-10-2020 23:30",
+    "endDate": "3-10-2020 23:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 2",
+    "startDate": "1-10-2020 0:45",
+    "endDate": "1-10-2020 0:45",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Oct-20",
+    "startDate": "29-10-2020 20:30:00",
+    "endDate": "29-10-2020 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 5",
+    "startDate": "4-10-2020 0:00",
+    "endDate": "4-10-2020 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Friendlies: Retribution ",
+    "startDate": "3-10-2020 1:25",
+    "endDate": "3-10-2020 1:25",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Oct-20",
+    "startDate": "25-10-2020 22:08:00",
+    "endDate": "25-10-2020 22:08:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Oct-20",
+    "startDate": "22-10-2020 03:00:00",
+    "endDate": "22-10-2020 03:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Oct-20",
+    "startDate": "3-10-2020 22:10",
+    "endDate": "3-10-2020 22:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 6",
+    "startDate": "4-10-2020 0:30",
+    "endDate": "4-10-2020 0:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Oct-20",
+    "startDate": "26-10-2020 00:42:00",
+    "endDate": "26-10-2020 00:42:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTAO 2020",
+    "startDate": "4-10-2020 3:05",
+    "endDate": "4-10-2020 3:05",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Oct-20",
+    "startDate": "25-10-2020 22:09:00",
+    "endDate": "25-10-2020 22:09:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Winners Final",
+    "startDate": "4-10-2020 23:15",
+    "endDate": "4-10-2020 23:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Round 7",
+    "startDate": "4-10-2020 23:45",
+    "endDate": "4-10-2020 23:45",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Losers Final",
+    "startDate": "5-10-2020 0:10",
+    "endDate": "5-10-2020 0:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Final",
+    "startDate": "5-10-2020 0:50",
+    "endDate": "5-10-2020 0:50",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 9",
+    "startDate": "30-11-2020 06:00:00",
+    "endDate": "30-11-2020 06:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Oct-20",
+    "startDate": "11-10-2020 1:00",
+    "endDate": "11-10-2020 1:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Canada Lite 2020",
+    "startDate": "24-10-2020 22:40:00",
+    "endDate": "24-10-2020 22:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2020",
+    "startDate": "7-12-2020 3:00",
+    "endDate": "7-12-2020 3:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Russia 2020",
+    "startDate": "1-11-2020 16:30",
+    "endDate": "1-11-2020 16:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Nov-20",
+    "startDate": "22-12-2020 20:00:00",
+    "endDate": "22-12-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Nations League ",
+    "startDate": "20-06-2021 20:00:00",
+    "endDate": "20-06-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Asia Nov-20",
+    "startDate": "22-11-2020 14:25:00",
+    "endDate": "22-11-2020 14:25:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit 4 (6-7)",
+    "startDate": "26-11-2020 01:10:00",
+    "endDate": "26-11-2020 01:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit 4 (3-5)",
+    "startDate": "27-11-2020 20:25:00",
+    "endDate": "27-11-2020 20:25:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Brawl Dec-20",
+    "startDate": "28-11-2020 21:00:00",
+    "endDate": "28-11-2020 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 10",
+    "startDate": "24-01-2021 19:30:00",
+    "endDate": "24-01-2021 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Community Dec-20",
+    "startDate": "20-12-2020 20:00:00",
+    "endDate": "20-12-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Dec-20",
+    "startDate": "28-12-2020 07:22:00",
+    "endDate": "28-12-2020 07:22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Dec-20",
+    "startDate": "27-12-2020 21:25:00",
+    "endDate": "27-12-2020 21:25:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Dec-20",
+    "startDate": "28-12-2020 03:54:00",
+    "endDate": "28-12-2020 03:54:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Dec-20",
+    "startDate": "27-12-2020 21:28:00",
+    "endDate": "27-12-2020 21:28:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Dec-20",
+    "startDate": "5-12-2020 22:10",
+    "endDate": "5-12-2020 22:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Dec-20",
+    "startDate": "30-12-2020 20:00:00",
+    "endDate": "30-12-2020 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Dec-20",
+    "startDate": "13-12-2020 03:40:00",
+    "endDate": "13-12-2020 03:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Masters Dec-20",
+    "startDate": "13-12-2020 22:05:00",
+    "endDate": "13-12-2020 22:05:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Chrissy's DAS Tournament 2020",
+    "startDate": "20-12-2020 03:30:00",
+    "endDate": "20-12-2020 03:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jan-21",
+    "startDate": "3-1-2021 1:00",
+    "endDate": "3-1-2021 1:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Community Jan-21",
+    "startDate": "17-01-2021 19:00:00",
+    "endDate": "17-01-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jan-21",
+    "startDate": "25-01-2021 22:37:00",
+    "endDate": "25-01-2021 22:37:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jan-21",
+    "startDate": "30-01-2021 21:07:00",
+    "endDate": "30-01-2021 21:07:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jan-21",
+    "startDate": "29-01-2021 02:39:00",
+    "endDate": "29-01-2021 02:39:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Rafal's Tetris League Season 1",
+    "startDate": "14-02-2021 20:45:00",
+    "endDate": "14-02-2021 20:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jan-21",
+    "startDate": "29-01-2021 20:35:00",
+    "endDate": "29-01-2021 20:35:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Jan-21",
+    "startDate": "27-01-2021 05:50:00",
+    "endDate": "27-01-2021 05:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Season 4",
+    "startDate": "15-09-2021 23:55:00",
+    "endDate": "15-09-2021 23:55:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": " ",
+    "startDate": "8-1-2021 22:00",
+    "endDate": "8-1-2021 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Russia Jan-21",
+    "startDate": "10-1-2021 17:30",
+    "endDate": "10-1-2021 17:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Jan-21",
+    "startDate": "16-01-2021 20:00:00",
+    "endDate": "16-01-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Masters Jan-21",
+    "startDate": "17-01-2021 23:15:00",
+    "endDate": "17-01-2021 23:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Test Stream",
+    "startDate": "19-01-2021 23:30:00",
+    "endDate": "19-01-2021 23:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit S10",
+    "startDate": "24-01-2021 01:30:00",
+    "endDate": "24-01-2021 01:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Italy Jan-21",
+    "startDate": "25-01-2021 00:00:00",
+    "endDate": "25-01-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 11",
+    "startDate": "14-03-2021 21:20:00",
+    "endDate": "14-03-2021 21:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 Ep42",
+    "startDate": "27-01-2021 20:15:00",
+    "endDate": "27-01-2021 20:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #2",
+    "startDate": "28-01-2021 03:00:00",
+    "endDate": "28-01-2021 03:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Sixfour Invitational ",
+    "startDate": "30-01-2021 14:00:00",
+    "endDate": "30-01-2021 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jan-21",
+    "startDate": "31-01-2021 02:40:00",
+    "endDate": "31-01-2021 02:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Feb-21",
+    "startDate": "11-2-2021 2:15",
+    "endDate": "11-2-2021 2:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Korea Tournament Feb-21",
+    "startDate": "17-04-2021 19:00:00",
+    "endDate": "17-04-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Feb-21",
+    "startDate": "27-02-2021 21:00:00",
+    "endDate": "27-02-2021 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Feb-21",
+    "startDate": "28-02-2021 04:21:00",
+    "endDate": "28-02-2021 04:21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Feb-21",
+    "startDate": "27-02-2021 21:00:00",
+    "endDate": "27-02-2021 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #3",
+    "startDate": "4-2-2021 3:00",
+    "endDate": "4-2-2021 3:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Feb-21",
+    "startDate": "27-02-2021 20:30:00",
+    "endDate": "27-02-2021 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Feb-21",
+    "startDate": "27-02-2021 20:00:00",
+    "endDate": "27-02-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Feb-21",
+    "startDate": "7-2-2021 1:00",
+    "endDate": "7-2-2021 1:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Feb-21",
+    "startDate": "7-2-2021 22:00",
+    "endDate": "7-2-2021 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Feb-21",
+    "startDate": "14-02-2021 02:40:00",
+    "endDate": "14-02-2021 02:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #4",
+    "startDate": "17-02-2021 02:30:00",
+    "endDate": "17-02-2021 02:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Raccoon Cup Season 1 - Day 1",
+    "startDate": "26-02-2021 23:30:00",
+    "endDate": "26-02-2021 23:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LYMYMI Tournament 2021",
+    "startDate": "20-03-2021 23:00:00",
+    "endDate": "20-03-2021 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Raccoon Cup Season 1 - Day 2",
+    "startDate": "27-02-2021 23:30:00",
+    "endDate": "27-02-2021 23:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Polish Friendlies ",
+    "startDate": "27-02-2021 21:45:00",
+    "endDate": "27-02-2021 21:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Mar-21",
+    "startDate": "26-03-2021 00:00:00",
+    "endDate": "26-03-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #5",
+    "startDate": "4-3-2021 5:00",
+    "endDate": "4-3-2021 5:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Mar-21",
+    "startDate": "27-03-2021 22:00:00",
+    "endDate": "27-03-2021 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Mar-21",
+    "startDate": "27-03-2021 20:30:00",
+    "endDate": "27-03-2021 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Mar-21",
+    "startDate": "31-03-2021 19:56:00",
+    "endDate": "31-03-2021 19:56:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Mar-21",
+    "startDate": "27-03-2021 21:30:00",
+    "endDate": "27-03-2021 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams Mar-21",
+    "startDate": "16-04-2021 20:00:00",
+    "endDate": "16-04-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Mar-21",
+    "startDate": "28-03-2021 00:01:00",
+    "endDate": "28-03-2021 00:01:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Poland League Season 1",
+    "startDate": "27-03-2021 19:00:00",
+    "endDate": "27-03-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Mar-21",
+    "startDate": "7-3-2021 1:30",
+    "endDate": "7-3-2021 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit S11",
+    "startDate": "13-03-2021 19:30:00",
+    "endDate": "13-03-2021 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #6",
+    "startDate": "11-3-2021 5:00",
+    "endDate": "11-3-2021 5:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters ",
+    "startDate": "14-03-2021 02:40:00",
+    "endDate": "14-03-2021 02:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 12",
+    "startDate": "1-5-2021 11:00",
+    "endDate": "1-5-2021 11:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Maxout Club Friendlies ",
+    "startDate": "21-03-2021 19:00:00",
+    "endDate": "21-03-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC HK 2021",
+    "startDate": "20-03-2021 13:30:00",
+    "endDate": "20-03-2021 13:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Sixfour Invitational Mar-21",
+    "startDate": "20-03-2021 20:30:00",
+    "endDate": "20-03-2021 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Mar-21",
+    "startDate": "22-03-2021 00:00:00",
+    "endDate": "22-03-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Friendlies ",
+    "startDate": "12-10-2021 18:30",
+    "endDate": "12-10-2021 18:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris Unfriendlies ",
+    "startDate": "28-03-2021 01:30:00",
+    "endDate": "28-03-2021 01:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #7",
+    "startDate": "1-4-2021 5:00",
+    "endDate": "1-4-2021 5:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados Apr-21",
+    "startDate": "27-04-2021 22:45:00",
+    "endDate": "27-04-2021 22:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Apr-21",
+    "startDate": "4-4-2021 1:30",
+    "endDate": "4-4-2021 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Apr-21",
+    "startDate": "24-04-2021 19:30:00",
+    "endDate": "24-04-2021 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTB DAS Tournament 2021",
+    "startDate": "4-4-2021 21:00",
+    "endDate": "4-4-2021 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Apr-21",
+    "startDate": "24-04-2021 20:00:00",
+    "endDate": "24-04-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Apr-21",
+    "startDate": "24-04-2021 19:00:00",
+    "endDate": "24-04-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Apr-21",
+    "startDate": "29-04-2021 00:23:00",
+    "endDate": "29-04-2021 00:23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM Friendlies Apr-21",
+    "startDate": "9-4-2021 0:30",
+    "endDate": "9-4-2021 0:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Apr-21",
+    "startDate": "18-04-2021 00:15:00",
+    "endDate": "18-04-2021 00:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Apr-21",
+    "startDate": "11-4-2021 2:40",
+    "endDate": "11-4-2021 2:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Battles April 17th",
+    "startDate": "17-04-2021 22:33:00",
+    "endDate": "17-04-2021 22:33:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Apr-21",
+    "startDate": "19-04-2021 00:00:00",
+    "endDate": "19-04-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #8",
+    "startDate": "21-04-2021 05:00:00",
+    "endDate": "21-04-2021 05:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Teams May-21",
+    "startDate": "24-06-2021 03:00:00",
+    "endDate": "24-06-2021 03:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Battles April 24th",
+    "startDate": "24-04-2021 19:53:00",
+    "endDate": "24-04-2021 19:53:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit S12",
+    "startDate": "1-5-2021 16:15",
+    "endDate": "1-5-2021 16:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Battles April 29th",
+    "startDate": "30-04-2021 00:00:00",
+    "endDate": "30-04-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers May-21",
+    "startDate": "2-5-2021 1:30",
+    "endDate": "2-5-2021 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 May-21",
+    "startDate": "29-05-2021 19:00:00",
+    "endDate": "29-05-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures May-21",
+    "startDate": "29-05-2021 20:40:00",
+    "endDate": "29-05-2021 20:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 May-21",
+    "startDate": "29-05-2021 19:30:00",
+    "endDate": "29-05-2021 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 May-21",
+    "startDate": "31-05-2021 14:37:00",
+    "endDate": "31-05-2021 14:37:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 13",
+    "startDate": "22-06-2021 01:42:00",
+    "endDate": "22-06-2021 01:42:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas May-21",
+    "startDate": "12-5-2021 0:30",
+    "endDate": "12-5-2021 0:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados May-21",
+    "startDate": "27-05-2021 00:30:00",
+    "endDate": "27-05-2021 00:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #9",
+    "startDate": "5-5-2021 5:30",
+    "endDate": "5-5-2021 5:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTGL S1",
+    "startDate": "31-07-2021 18:00:00",
+    "endDate": "31-07-2021 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters May-21",
+    "startDate": "9-5-2021 2:40",
+    "endDate": "9-5-2021 2:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Battles May 8th",
+    "startDate": "9-5-2021 2:30",
+    "endDate": "9-5-2021 2:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LGBTetris May-21",
+    "startDate": "13-05-2021 01:50:00",
+    "endDate": "13-05-2021 01:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Sixfour Invitational 3rd",
+    "startDate": "26-06-2021 14:45:00",
+    "endDate": "26-06-2021 14:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #10",
+    "startDate": "15-05-2021 21:45:00",
+    "endDate": "15-05-2021 21:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados May-21",
+    "startDate": "16-05-2021 23:40:00",
+    "endDate": "16-05-2021 23:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "BeNeLux vs Mexico ",
+    "startDate": "23-05-2021 20:15:00",
+    "endDate": "23-05-2021 20:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #11",
+    "startDate": "24-05-2021 22:00:00",
+    "endDate": "24-05-2021 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #12",
+    "startDate": "26-05-2021 03:00:00",
+    "endDate": "26-05-2021 03:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 Ep55",
+    "startDate": "26-05-2021 20:00:00",
+    "endDate": "26-05-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados Jun-21",
+    "startDate": "26-06-2021 00:00:00",
+    "endDate": "26-06-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jun-21",
+    "startDate": "26-06-2021 08:58:00",
+    "endDate": "26-06-2021 08:58:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jun-21",
+    "startDate": "26-06-2021 20:00:00",
+    "endDate": "26-06-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jun-21",
+    "startDate": "26-06-2021 19:00:00",
+    "endDate": "26-06-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jun-21",
+    "startDate": "6-6-2021 1:30",
+    "endDate": "6-6-2021 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Jun-21",
+    "startDate": "19-06-2021 02:45:00",
+    "endDate": "19-06-2021 02:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jun-21",
+    "startDate": "26-06-2021 20:45:00",
+    "endDate": "26-06-2021 20:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #13",
+    "startDate": "10-6-2021 1:55",
+    "endDate": "10-6-2021 1:55",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jun-21",
+    "startDate": "13-06-2021 02:40:00",
+    "endDate": "13-06-2021 02:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris All-Stars Rookie Showcase",
+    "startDate": "16-06-2021 01:15:00",
+    "endDate": "16-06-2021 01:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris All-Stars Gauntlet Spotlight",
+    "startDate": "18-06-2021 01:00:00",
+    "endDate": "18-06-2021 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit 5-Apr",
+    "startDate": "13-11-2021 22:00:00",
+    "endDate": "13-11-2021 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Iberia Mini Tournament Jun-21",
+    "startDate": "19-06-2021 15:00:00",
+    "endDate": "19-06-2021 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Open #14",
+    "startDate": "19-06-2021 20:25:00",
+    "endDate": "19-06-2021 20:25:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Jun-21",
+    "startDate": "19-06-2021 23:45:00",
+    "endDate": "19-06-2021 23:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris All-Stars Veteran Spotlight",
+    "startDate": "20-06-2021 03:15:00",
+    "endDate": "20-06-2021 03:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Champions Summit 7-Jun",
+    "startDate": "20-11-2021 07:05:00",
+    "endDate": "20-11-2021 07:05:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse June 20th",
+    "startDate": "20-06-2021 22:48:00",
+    "endDate": "20-06-2021 22:48:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Tetris All-Stars Grand Finale",
+    "startDate": "21-06-2021 02:00:00",
+    "endDate": "21-06-2021 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 14",
+    "startDate": "9-8-2021 18:10",
+    "endDate": "9-8-2021 18:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Poland 2021",
+    "startDate": "27-06-2021 15:00:00",
+    "endDate": "27-06-2021 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Wednesday Warriors EB ",
+    "startDate": "29-07-2021 00:20:00",
+    "endDate": "29-07-2021 00:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse Stencil Test",
+    "startDate": "2-7-2021 17:00",
+    "endDate": "2-7-2021 17:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Level Twelve July",
+    "startDate": "4-9-2021 20:00",
+    "endDate": "4-9-2021 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jul-21",
+    "startDate": "31-07-2021 19:00:00",
+    "endDate": "31-07-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse July 3rd Special Show",
+    "startDate": "3-7-2021 20:00",
+    "endDate": "3-7-2021 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jul-21",
+    "startDate": "4-7-2021 1:30",
+    "endDate": "4-7-2021 1:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jul-21",
+    "startDate": "31-07-2021 14:43:00",
+    "endDate": "31-07-2021 14:43:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jul-21",
+    "startDate": "31-07-2021 19:30:00",
+    "endDate": "31-07-2021 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse LGBTetris Elo Battle",
+    "startDate": "4-7-2021 18:30",
+    "endDate": "4-7-2021 18:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jul-21",
+    "startDate": "31-07-2021 20:00:00",
+    "endDate": "31-07-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Feed My Elo ",
+    "startDate": "29-11-2021 17:40:00",
+    "endDate": "29-11-2021 17:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse Eat my Elo",
+    "startDate": "3-6-2022 0:15",
+    "endDate": "3-6-2022 0:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jul-21",
+    "startDate": "24-07-2021 21:10:00",
+    "endDate": "24-07-2021 21:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC SC Qual ",
+    "startDate": "10-7-2021 21:15",
+    "endDate": "10-7-2021 21:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse July 12th",
+    "startDate": "12-7-2021 20:00",
+    "endDate": "12-7-2021 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S2 E60",
+    "startDate": "14-07-2021 19:10:00",
+    "endDate": "14-07-2021 19:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "LATAM CTWC 2021 Qualifier",
+    "startDate": "16-08-2021 00:30:00",
+    "endDate": "16-08-2021 00:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Eat Sauce's Elo ",
+    "startDate": "23-06-2022 19:22:00",
+    "endDate": "23-06-2022 19:22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Vietnam 2021",
+    "startDate": "15-08-2021 15:00:00",
+    "endDate": "15-08-2021 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Grudges ",
+    "startDate": "5-8-2021 2:30",
+    "endDate": "5-8-2021 2:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "B14NK Garage CTWC Qual 2021",
+    "startDate": "25-07-2021 22:00:00",
+    "endDate": "25-07-2021 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet King of the Hill Special",
+    "startDate": "26-07-2021 01:40:00",
+    "endDate": "26-07-2021 01:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet ",
+    "startDate": "26-07-2021 00:20:00",
+    "endDate": "26-07-2021 00:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Mexico ",
+    "startDate": "26-07-2021 21:00:00",
+    "endDate": "26-07-2021 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Singapore Qualifiers 2021",
+    "startDate": "31-07-2021 11:00:00",
+    "endDate": "31-07-2021 11:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Rounds ",
+    "startDate": "15-08-2021 00:30:00",
+    "endDate": "15-08-2021 00:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Asia 2021",
+    "startDate": "28-08-2021 15:00:00",
+    "endDate": "28-08-2021 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Aug-21",
+    "startDate": "29-08-2021 23:00:00",
+    "endDate": "29-08-2021 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Aug-21",
+    "startDate": "30-08-2021 16:00:00",
+    "endDate": "30-08-2021 16:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Aug-21",
+    "startDate": "29-08-2021 14:00:00",
+    "endDate": "29-08-2021 14:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Pumpy's Elo Battles ",
+    "startDate": "10-8-2021 0:30",
+    "endDate": "10-8-2021 0:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Aug-21",
+    "startDate": "28-08-2021 23:40:00",
+    "endDate": "28-08-2021 23:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Iberia 2021 Qualifier",
+    "startDate": "7-8-2021 22:30",
+    "endDate": "7-8-2021 22:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Aug-21",
+    "startDate": "3-9-2021 2:00",
+    "endDate": "3-9-2021 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 15",
+    "startDate": "27-09-2021 19:30:00",
+    "endDate": "27-09-2021 19:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Aug-21",
+    "startDate": "24-08-2021 00:00:00",
+    "endDate": "24-08-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Championship 2021",
+    "startDate": "15-08-2021 01:20:00",
+    "endDate": "15-08-2021 01:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTUK CTWC Qualifier",
+    "startDate": "15-08-2021 19:40:00",
+    "endDate": "15-08-2021 19:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse CTWC Qualifier",
+    "startDate": "21-08-2021 22:11:00",
+    "endDate": "21-08-2021 22:11:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "BRAZIL CTWC 2021 Qualifier",
+    "startDate": "21-08-2021 23:45:00",
+    "endDate": "21-08-2021 23:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "ARGENTINA CTWC 2021 Qualifier",
+    "startDate": "22-08-2021 22:10:00",
+    "endDate": "22-08-2021 22:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Italy Qualifier 2021",
+    "startDate": "28-08-2021 16:00:00",
+    "endDate": "28-08-2021 16:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Germany Qualifier 2021",
+    "startDate": "29-08-2021 16:00:00",
+    "endDate": "29-08-2021 16:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC BeNeLux Qualifier 2021",
+    "startDate": "29-08-2021 21:00:00",
+    "endDate": "29-08-2021 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Minnesota Qualifier 2021",
+    "startDate": "29-08-2021 20:00:00",
+    "endDate": "29-08-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Europe 2021 Qualifier",
+    "startDate": "4-9-2021 21:30",
+    "endDate": "4-9-2021 21:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Sep-21",
+    "startDate": "21-09-2021 21:18:00",
+    "endDate": "21-09-2021 21:18:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Sep-21",
+    "startDate": "26-09-2021 05:00:00",
+    "endDate": "26-09-2021 05:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Sep-21",
+    "startDate": "25-09-2021 18:30:00",
+    "endDate": "25-09-2021 18:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Australia 2021 Qualifier",
+    "startDate": "5-9-2021 5:45",
+    "endDate": "5-9-2021 5:45",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Sep-21",
+    "startDate": "27-09-2021 14:05:00",
+    "endDate": "27-09-2021 14:05:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gran Colombia 2021 Qualifier",
+    "startDate": "5-9-2021 18:40",
+    "endDate": "5-9-2021 18:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Sep-21",
+    "startDate": "1-10-2021 3:30",
+    "endDate": "1-10-2021 3:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Sep-21",
+    "startDate": "24-09-2021 01:00:00",
+    "endDate": "24-09-2021 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Sixfour Invitational 4th",
+    "startDate": "26-09-2021 19:00:00",
+    "endDate": "26-09-2021 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Canada 2021 Qualifier",
+    "startDate": "19-09-2021 20:20:00",
+    "endDate": "19-09-2021 20:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Blank's Dorm Qualifier 2021",
+    "startDate": "22-09-2021 23:00:00",
+    "endDate": "22-09-2021 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados Oct-21",
+    "startDate": "28-10-2021 00:00:00",
+    "endDate": "28-10-2021 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Oct-21",
+    "startDate": "2-11-2021 2:00",
+    "endDate": "2-11-2021 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Clash 2021",
+    "startDate": "9-10-2021 1:40",
+    "endDate": "9-10-2021 1:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC 2021",
+    "startDate": "15-11-2021 02:00:00",
+    "endDate": "15-11-2021 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "DAS Friendlies ",
+    "startDate": "16-10-2021 05:40:00",
+    "endDate": "16-10-2021 05:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Friendlies ",
+    "startDate": "29-11-2021 05:15:00",
+    "endDate": "29-11-2021 05:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse CTWC Practice",
+    "startDate": "21-10-2021 23:00:00",
+    "endDate": "21-10-2021 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "SirMaser Clash ",
+    "startDate": "22-12-2021 21:55:00",
+    "endDate": "22-12-2021 21:55:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Bronze 2021",
+    "startDate": "24-10-2021 21:15:00",
+    "endDate": "24-10-2021 21:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Silver 2021",
+    "startDate": "24-10-2021 22:15:00",
+    "endDate": "24-10-2021 22:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Poland Raccoon Cup Fall 2021",
+    "startDate": "31-10-2021 20:15:00",
+    "endDate": "31-10-2021 20:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Poland Other ",
+    "startDate": "26-10-2021 15:00:00",
+    "endDate": "26-10-2021 15:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Oct-21",
+    "startDate": "30-10-2021 22:00:00",
+    "endDate": "30-10-2021 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTG Overdrive (pre-season)",
+    "startDate": "8-11-2021 3:00",
+    "endDate": "8-11-2021 3:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "NTSC BeNeLux Cup 2021",
+    "startDate": "28-11-2021 21:30:00",
+    "endDate": "28-11-2021 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Nov-21",
+    "startDate": "28-11-2021 19:50:00",
+    "endDate": "28-11-2021 19:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Poland League ",
+    "startDate": "11-7-2022 18:10",
+    "endDate": "11-7-2022 18:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "The Elo Clash ",
+    "startDate": "6-5-2022 18:00",
+    "endDate": "6-5-2022 18:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Nov-21",
+    "startDate": "6-11-2021 21:10",
+    "endDate": "6-11-2021 21:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados Nov-21",
+    "startDate": "21-11-2021 21:20:00",
+    "endDate": "21-11-2021 21:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse November 13th",
+    "startDate": "13-11-2021 23:42:00",
+    "endDate": "13-11-2021 23:42:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Infinite",
+    "startDate": "3-5-2022 21:53",
+    "endDate": "3-5-2022 21:53",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Turkey Season 1",
+    "startDate": "19-12-2021 17:30:00",
+    "endDate": "19-12-2021 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Dec-21",
+    "startDate": "30-12-2021 21:00:00",
+    "endDate": "30-12-2021 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Dec-21",
+    "startDate": "23-12-2021 02:36:00",
+    "endDate": "23-12-2021 02:36:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Dec-21",
+    "startDate": "30-12-2021 02:30:00",
+    "endDate": "30-12-2021 02:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Dec-21",
+    "startDate": "31-12-2021 01:55:00",
+    "endDate": "31-12-2021 01:55:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Dec-21",
+    "startDate": "10-12-2021 22:00",
+    "endDate": "10-12-2021 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados Dec-21",
+    "startDate": "23-12-2021 00:50:00",
+    "endDate": "23-12-2021 00:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Minnesota Tetris Open December",
+    "startDate": "5-12-2021 23:00",
+    "endDate": "5-12-2021 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Dec-21",
+    "startDate": "11-12-2021 22:00",
+    "endDate": "11-12-2021 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Dec-21",
+    "startDate": "12-12-2021 1:00",
+    "endDate": "12-12-2021 1:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 16",
+    "startDate": "21-01-2022 02:00:00",
+    "endDate": "21-01-2022 02:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT DAS Test Tournament ",
+    "startDate": "30-12-2021 20:00:00",
+    "endDate": "30-12-2021 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT DAS Tournament Test Bracket",
+    "startDate": "9-1-2022 2:00",
+    "endDate": "9-1-2022 2:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Eat My Elo ",
+    "startDate": "5-5-2022 0:10",
+    "endDate": "5-5-2022 0:10",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse January 2nd",
+    "startDate": "3-1-2022 4:00",
+    "endDate": "3-1-2022 4:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jan-22",
+    "startDate": "29-01-2022 21:00:00",
+    "endDate": "29-01-2022 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Jan-22",
+    "startDate": "1-2-2022 1:00",
+    "endDate": "1-2-2022 1:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jan-22",
+    "startDate": "27-01-2022 01:00:00",
+    "endDate": "27-01-2022 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jan-22",
+    "startDate": "29-01-2022 22:00:00",
+    "endDate": "29-01-2022 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls Jan-22",
+    "startDate": "29-01-2022 21:30:00",
+    "endDate": "29-01-2022 21:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Entertainment S3 Ep1",
+    "startDate": "5-1-2022 20:00",
+    "endDate": "5-1-2022 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Gauntlet Overdrive",
+    "startDate": "23-06-2022 01:00:00",
+    "endDate": "23-06-2022 01:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Mufados Jan-22",
+    "startDate": "29-01-2022 19:00:00",
+    "endDate": "29-01-2022 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jan-22",
+    "startDate": "23-01-2022 11:00:00",
+    "endDate": "23-01-2022 11:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jan-22",
+    "startDate": "29-01-2022 01:30:00",
+    "endDate": "29-01-2022 01:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Jan-22",
+    "startDate": "12-1-2022 23:05",
+    "endDate": "12-1-2022 23:05",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Poland League Fall 2021 Playoffs",
+    "startDate": "9-1-2022 18:00",
+    "endDate": "9-1-2022 18:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse MaxoutClub",
+    "startDate": "13-01-2022 16:00:00",
+    "endDate": "13-01-2022 16:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jan-22",
+    "startDate": "23-01-2022 17:00:00",
+    "endDate": "23-01-2022 17:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elps Impromptu friendlies Episode 1",
+    "startDate": "21-01-2022 22:30:00",
+    "endDate": "21-01-2022 22:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Elo Battles Episode 1",
+    "startDate": "21-01-2022 23:00:00",
+    "endDate": "21-01-2022 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC Mexico Friendlies ",
+    "startDate": "23-01-2022 19:00:00",
+    "endDate": "23-01-2022 19:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Feb-22",
+    "startDate": "1-3-2022 0:00",
+    "endDate": "1-3-2022 0:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Feb-22",
+    "startDate": "19-02-2022 00:00:00",
+    "endDate": "19-02-2022 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Feb-22",
+    "startDate": "26-02-2022 19:50:00",
+    "endDate": "26-02-2022 19:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Feb-22",
+    "startDate": "26-02-2022 19:20:00",
+    "endDate": "26-02-2022 19:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Feb-22",
+    "startDate": "4-3-2022 2:20",
+    "endDate": "4-3-2022 2:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Feb-22",
+    "startDate": "26-02-2022 18:50:00",
+    "endDate": "26-02-2022 18:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Feb-22",
+    "startDate": "26-02-2022 00:23:00",
+    "endDate": "26-02-2022 00:23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Feb-22",
+    "startDate": "6-2-2022 22:00",
+    "endDate": "6-2-2022 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls Feb-22",
+    "startDate": "21-02-2022 22:00:00",
+    "endDate": "21-02-2022 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Southern 2022",
+    "startDate": "13-02-2022 00:15:00",
+    "endDate": "13-02-2022 00:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTGL S2",
+    "startDate": "7-4-2022 18:30",
+    "endDate": "7-4-2022 18:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Vegas 2022",
+    "startDate": "27-02-2022 04:08:00",
+    "endDate": "27-02-2022 04:08:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Turkey Battles ",
+    "startDate": "27-02-2022 21:40:00",
+    "endDate": "27-02-2022 21:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Mar-22",
+    "startDate": "28-03-2022 22:00:00",
+    "endDate": "28-03-2022 22:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Mar-22",
+    "startDate": "26-03-2022 18:56:00",
+    "endDate": "26-03-2022 18:56:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Mar-22",
+    "startDate": "26-03-2022 18:57:00",
+    "endDate": "26-03-2022 18:57:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Mar-22",
+    "startDate": "26-03-2022 02:45:00",
+    "endDate": "26-03-2022 02:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls Mar-22",
+    "startDate": "21-03-2022 00:15:00",
+    "endDate": "21-03-2022 00:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Mar-22",
+    "startDate": "27-03-2022 03:21:00",
+    "endDate": "27-03-2022 03:21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Mar-22",
+    "startDate": "27-03-2022 00:34:00",
+    "endDate": "27-03-2022 00:34:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT League Season 17",
+    "startDate": "1-4-2022 2:35",
+    "endDate": "1-4-2022 2:35",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT DAS 2022",
+    "startDate": "11-5-2022 14:15",
+    "endDate": "11-5-2022 14:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Mar-22",
+    "startDate": "30-03-2022 01:46:00",
+    "endDate": "30-03-2022 01:46:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Illinois 2022",
+    "startDate": "13-03-2022 01:35:00",
+    "endDate": "13-03-2022 01:35:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Mar-22",
+    "startDate": "27-03-2022 20:00:00",
+    "endDate": "27-03-2022 20:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Apr-22",
+    "startDate": "10-4-2022 22:00",
+    "endDate": "10-4-2022 22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Minnesota 2022",
+    "startDate": "3-4-2022 21:00",
+    "endDate": "3-4-2022 21:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Apr-22",
+    "startDate": "10-4-2022 22:20",
+    "endDate": "10-4-2022 22:20",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Apr-22",
+    "startDate": "28-04-2022 18:41:00",
+    "endDate": "28-04-2022 18:41:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Apr-22",
+    "startDate": "27-04-2022 00:42:00",
+    "endDate": "27-04-2022 00:42:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Apr-22",
+    "startDate": "30-04-2022 03:05:00",
+    "endDate": "30-04-2022 03:05:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Apr-22",
+    "startDate": "30-04-2022 14:30:00",
+    "endDate": "30-04-2022 14:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls Apr-22",
+    "startDate": "17-04-2022 16:30:00",
+    "endDate": "17-04-2022 16:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Apr-22",
+    "startDate": "24-04-2022 00:38:00",
+    "endDate": "24-04-2022 00:38:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Apr-22",
+    "startDate": "30-04-2022 23:40:00",
+    "endDate": "30-04-2022 23:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "TNP ",
+    "startDate": "4-7-2022 18:45",
+    "endDate": "4-7-2022 18:45",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Midwest 2022",
+    "startDate": "1-5-2022 20:15",
+    "endDate": "1-5-2022 20:15",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 May-22",
+    "startDate": "26-05-2022 00:00:00",
+    "endDate": "26-05-2022 00:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 May-22",
+    "startDate": "26-05-2022 21:00:00",
+    "endDate": "26-05-2022 21:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 May-22",
+    "startDate": "27-05-2022 02:22:00",
+    "endDate": "27-05-2022 02:22:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas May-22",
+    "startDate": "24-05-2022 22:15:00",
+    "endDate": "24-05-2022 22:15:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 May-22",
+    "startDate": "31-05-2022 15:45:00",
+    "endDate": "31-05-2022 15:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T5 May-22",
+    "startDate": "18-05-2022 00:57:00",
+    "endDate": "18-05-2022 00:57:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers May-22",
+    "startDate": "28-05-2022 00:40:00",
+    "endDate": "28-05-2022 00:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Sixfour Invitational 5th",
+    "startDate": "15-07-2022 16:00:00",
+    "endDate": "15-07-2022 16:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls May-22",
+    "startDate": "28-05-2022 21:35:00",
+    "endDate": "28-05-2022 21:35:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters May-22",
+    "startDate": "31-05-2022 02:30:00",
+    "endDate": "31-05-2022 02:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures May-22",
+    "startDate": "25-05-2022 02:12:00",
+    "endDate": "25-05-2022 02:12:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL Championship #16",
+    "startDate": "14-05-2022 20:45:00",
+    "endDate": "14-05-2022 20:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Online Nestris Open ",
+    "startDate": "15-05-2022 23:30:00",
+    "endDate": "15-05-2022 23:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados May-22",
+    "startDate": "29-05-2022 00:50:00",
+    "endDate": "29-05-2022 00:50:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTGL S3",
+    "startDate": "28-06-2022 17:00:00",
+    "endDate": "28-06-2022 17:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWQ Washington 2022",
+    "startDate": "21-05-2022 20:20:00",
+    "endDate": "21-05-2022 20:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Jugá Tetris Caramba! ",
+    "startDate": "19-06-2022 16:40:00",
+    "endDate": "19-06-2022 16:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jun-22",
+    "startDate": "30-06-2022 12:08:00",
+    "endDate": "30-06-2022 12:08:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T5 Jun-22",
+    "startDate": "30-06-2022 20:30:00",
+    "endDate": "30-06-2022 20:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jun-22",
+    "startDate": "30-06-2022 00:26:00",
+    "endDate": "30-06-2022 00:26:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse Fast Money",
+    "startDate": "4-6-2022 19:46",
+    "endDate": "4-6-2022 19:46",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Jun-22",
+    "startDate": "25-06-2022 17:30:00",
+    "endDate": "25-06-2022 17:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jun-22",
+    "startDate": "29-06-2022 03:55:00",
+    "endDate": "29-06-2022 03:55:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "WPL SoCal 2022",
+    "startDate": "5-6-2022 2:35",
+    "endDate": "5-6-2022 2:35",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T3 Jul-22",
+    "startDate": "15-07-2022 23:09:00",
+    "endDate": "15-07-2022 23:09:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Jun-22",
+    "startDate": "25-06-2022 18:00:00",
+    "endDate": "25-06-2022 18:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls Jun-22",
+    "startDate": "28-06-2022 00:05:00",
+    "endDate": "28-06-2022 00:05:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWC South Carolina Qualifier 2022",
+    "startDate": "9-6-2022 21:30",
+    "endDate": "9-6-2022 21:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jun-22",
+    "startDate": "29-06-2022 06:37:00",
+    "endDate": "29-06-2022 06:37:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jun-22",
+    "startDate": "30-06-2022 01:10:00",
+    "endDate": "30-06-2022 01:10:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWCQ Poland 2022",
+    "startDate": "12-6-2022 11:00",
+    "endDate": "12-6-2022 11:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jun-22",
+    "startDate": "25-06-2022 23:12:00",
+    "endDate": "25-06-2022 23:12:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Copados Jun-22",
+    "startDate": "26-06-2022 22:40:00",
+    "endDate": "26-06-2022 22:40:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CT Iberia vs Latam 2022",
+    "startDate": "12-6-2022 20:00",
+    "endDate": "12-6-2022 20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "Peyton's Playhouse June 16th",
+    "startDate": "16-06-2022 19:20:00",
+    "endDate": "16-06-2022 19:20:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTWCQ East Coast 2022",
+    "startDate": "3-7-2022 20:40",
+    "endDate": "3-7-2022 20:40",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTLATAM Promesas Jul-22",
+    "startDate": "11-7-2022 23:00",
+    "endDate": "11-7-2022 23:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T2 Jul-22",
+    "startDate": "13-07-2022 20:26:00",
+    "endDate": "13-07-2022 20:26:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T1 Jul-22",
+    "startDate": "14-07-2022 19:41:00",
+    "endDate": "14-07-2022 19:41:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T6 Jul-22",
+    "startDate": "16-07-2022 15:45:00",
+    "endDate": "16-07-2022 15:45:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T4 Jul-22",
+    "startDate": "14-07-2022 13:27:00",
+    "endDate": "14-07-2022 13:27:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Community T5 Jul-22",
+    "startDate": "16-07-2022 17:25:00",
+    "endDate": "16-07-2022 17:25:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Challengers Jul-22",
+    "startDate": "14-07-2022 23:00:00",
+    "endDate": "14-07-2022 23:00:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Hopefuls Jul-22",
+    "startDate": "12-7-2022 2:36",
+    "endDate": "12-7-2022 2:36",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Futures Jul-22",
+    "startDate": "11-7-2022 20:30",
+    "endDate": "11-7-2022 20:30",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "TSP Trial Season",
+    "startDate": "15-07-2022 23:30:00",
+    "endDate": "15-07-2022 23:30:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  },
+  {
+    "name": "CTM Masters Jul-22",
+    "startDate": "17-07-2022 03:51:00",
+    "endDate": "17-07-2022 03:51:00",
+    "ongoing": true,
+    "concluded": true,
+    "permissionId": 1,
+    "seedingMethod": 1
+  }
+]
