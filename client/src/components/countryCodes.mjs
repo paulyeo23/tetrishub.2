@@ -1074,7 +1074,6 @@ const countries = [
 ];
 
 export function changeFlagCode(countryCode) {
-  console.log(countryCode);
   return countries.filter((country) => {
     return country["Alpha-3 code"] == countryCode;
   })[0]["Alpha-2 code"];

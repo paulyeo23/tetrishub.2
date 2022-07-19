@@ -8,6 +8,14 @@ export default function initSeedModel(sequelize, DataTypes) {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
+      eventId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+          model: "Events",
+          key: "id",
+        },
+      },
       description: {
         type: DataTypes.STRING,
       },

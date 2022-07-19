@@ -30,7 +30,6 @@ const NewEventCells = () => {
 
   useEffect(() => {
     if (Info != undefined) {
-      console.log(Info);
       const upcomingEvents = Info.Events.filter((event) => {
         return new Date(event.endDate) > new Date();
       }).sort((a, b) => {
@@ -42,17 +41,16 @@ const NewEventCells = () => {
         let endDate = new Date(event.startDate).toUTCString().split(" ");
         Rendercells.push(
           <a
-            href="/events/6605/flow-fireleague-2022-finals"
+            href={`/event/${event.id}`}
             className="a-reset small-event standard-box"
             bis_skin_checked="1"
           >
             <div className="event-logo-container" bis_skin_checked="1">
               <img
-                alt="Flow FiReLEAGUE 2022 Finals"
+                alt={event.name}
                 className="logo"
-                srcSet="https://img-cdn.hltv.org/eventlogo/NXRVcPDMcDw7Zd1mPWitL4.png?ixlib=java-2.1.0&amp;w=100&amp;s=703356f479ec33349f6531a8f4a4519f 2x"
-                title="Flow FiReLEAGUE 2022 Finals"
-                src="https://img-cdn.hltv.org/eventlogo/NXRVcPDMcDw7Zd1mPWitL4.png?ixlib=java-2.1.0&amp;w=50&amp;s=efe31ee3c1de397f0489052fe590b9b6"
+                title={event.name}
+                src={`/event/${event.Id}`}
               />
             </div>
             <div className="table-holder" bis_skin_checked="1">
@@ -127,7 +125,7 @@ const NewEventCells = () => {
                         </span>
                       </span>
                     </td>
-                    <td className="col-desc">Teams</td>
+                    <td className="col-desc">Players</td>
                     <td className="col-desc">Prize</td>
                     <td className="col-desc gtSmartphone-only"></td>
                   </tr>

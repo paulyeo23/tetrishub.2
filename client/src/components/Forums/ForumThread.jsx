@@ -3,7 +3,6 @@ import { Container, Row, Alert, Button, Col } from "react-bootstrap";
 import axios from "axios";
 import * as module from "../infoFunctions";
 import { useParams } from "react-router-dom";
-import Rules from "./Rules";
 import SubForums from "./Subs";
 import { getEntriesAssociated, timeSince } from "./getEntriesAssociated.mjs";
 

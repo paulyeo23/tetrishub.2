@@ -1,32 +1,24 @@
-import { resolve } from "path";
 import multer from "multer";
 import db from "../models/index.mjs";
 import initAllMatchesController from "../controllers/allMatchesController.mjs";
 import initUserController from "../controllers/userController.mjs";
-import initUploadsController from "../controllers/upload.mjs";
+import { initCommentsController } from "../controllers/Commentscontroller.mjs";
+
+import { initThreadsController } from "../controllers/threadsController.mjs";
 
 export default function routes(app) {
-  const allMatchesController = initAllMatchesController(db);
+  const allMatchesController = initAllMatchesController();
   app.get("/", allMatchesController.index);
 
-  const allUserController = initUserController(db);
-  app.post("/login/", (request, response) => {
-    console.log(request.body);
-  });
-  app.post("/register", (request, response) => {
-    console.log(request.body);
-    response.send({ accepted: false });
-  });
+  const allUserController = initUserController();
+  app.post("/login/", allUserController.Login);
+  app.post("/register", allUserController.Register);
 
-  const uploadsController = initUploadsController(db);
-  app.post(
-    "/upload/profilerequest",
-    uploadsController.upload.single("file"),
-    (request, response) => {
-      response.json({});
-    },
-  );
+  const commentsController = initCommentsController();
+  app.post("/replyThread", commentsController.replyToThread);
 
+  const threadController = initThreadsController();
+  app.post("/createThread", threadController.startNewThread);
   // function (request, response) {
   // let data = request.body;
   // let username = data.username;

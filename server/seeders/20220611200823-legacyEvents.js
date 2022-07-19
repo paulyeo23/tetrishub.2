@@ -5337,6 +5337,8 @@ let events = [
     concluded: true,
     permissionId: 1,
     seedingMethod: 1,
+    playerCount: 16,
+    ownerId: 1,
   },
 ];
 events.forEach((event) => {

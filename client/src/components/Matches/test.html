@@ -1,59 +1,89 @@
-<div class="past-matches-scroll-area " bis_skin_checked="1">                   
-                      <table class="past-matches-table">                   
-                        <tbody>                   
-                          <tr class="">                   
-                            <td class="past-matches-team text-ellipsis">                   
-                              <div class="past-matches-name-time" bis_skin_checked="1">                   
-                                <div class="past-matches-cell past-matches-teamname text-ellipsis" bis_skin_checked="1">           
-                                            <span class="text-ellipsis">          
-                                             <img alt="China" src="/img/static/flags/30x20/CN.gif" class="flag flag" title="China"/>                 
-                                               <a href="/team/11514/rare-atom" class="text-ellipsis" data-link-tracking-page="Matchpage" data-link-tracking-column="[Main content]" data-link-tracking-destination="Click on Opponent name [Past matches] [text]" bis_skin_checked="1">       
-                                                            Rare Atom</a>    
-                                                           </span>        
-                                                       </div>                   
-                                <div class="past-matches-cell past-matches-time-ago" bis_skin_checked="1">         
-                                              1 week ago</div>        
 
-                              </div>                   
-                            </td>                   
-                            <td class="past-matches-map">                   
-                              <div class="past-matches-cell" bis_skin_checked="1">          
-                                         <a href="/matches/2357321/websterz-vs-rare-atom-esl-challenger-melbourne-2022-europe-open-qualifier-2" data-link-tracking-page="Matchpage" data-link-tracking-column="[Main content]" data-link-tracking-destination="Click on Map name [Past matches] [text]" bis_skin_checked="1">        
-                                                       inf</a>       
-                                                    </div>                   
-                            </td>                   
-                            <td class="past-matches-score">           
-                                        <a href="/matches/2357321/websterz-vs-rare-atom-esl-challenger-melbourne-2022-europe-open-qualifier-2" class="past-matches-cell lost" bis_skin_checked="1">          
-                                                     5 - 16</a>      
-                                                 </td>        
-                                                   
-                          </tr>                   
-                          <tr class="">                   
-                            <td class="past-matches-team text-ellipsis">                   
-                              <div class="past-matches-name-time" bis_skin_checked="1">                   
-                                <div class="past-matches-cell past-matches-teamname text-ellipsis" bis_skin_checked="1">       
-                                                <span class="text-ellipsis">         
-                                              <img alt="Denmark" src="/img/static/flags/30x20/DK.gif" class="flag flag" title="Denmark"/>               
-                                                  <a href="/team/10867/masonic" class="text-ellipsis" data-link-tracking-page="Matchpage" data-link-tracking-column="[Main content]" data-link-tracking-destination="Click on Opponent name [Past matches] [text]" bis_skin_checked="1">            
-                                                       MASONIC</a>           
-                                                    </span>        
-                                                       </div>                   
-                                <div class="past-matches-cell past-matches-time-ago" bis_skin_checked="1">       
-                                                1 week ago</div>            
 
-                              </div>                   
-                            </td>                   
-                            <td class="past-matches-map">                   
-                              <div class="past-matches-cell" bis_skin_checked="1">           
-                                        <a href="/matches/2357311/masonic-vs-websterz-esl-challenger-melbourne-2022-europe-open-qualifier-2" data-link-tracking-page="Matchpage" data-link-tracking-column="[Main content]" data-link-tracking-destination="Click on Map name [Past matches] [text]" bis_skin_checked="1">            
-                                                   nuke</a>           
-                                            </div>                   
-                            </td>                   
-                            <td class="past-matches-score">       
-                                           
-                                <a href="/matches/2357311/masonic-vs-websterz-esl-challenger-melbourne-2022-europe-open-qualifier-2" class="past-matches-cell won" bis_skin_checked="1">                   16 - 14</a>            
-                                   </td>                   
-                          </tr>                   
-                        </tbody>                   
-                      </table>                   
-                    </div>    
+<tr className="row nowrap">
+  <td className="date">
+    <a href="/match/${match.id}" bis_skin_checked="1">
+      <span>
+        {matchDate.getDay()}/{matchDate.getMonth()}{" "}
+        {`'${matchDate.getFullYear() % 100}`}</span
+      >
+    </a>
+  </td>
+  <td
+    className="team1 text-ellipsis gtSmartphone-only underlined winner"
+    title={player1.alias}
+  >
+    <div className="flagAlign" bis_skin_checked="1">
+      <img
+        alt={player1.country}
+        src={module.getPlayerFlag(player1)}
+        className="flag flag"
+        title={player1.country}
+      />
+      <a
+        href={`/player/${player1.alias}`}
+        className="text-ellipsis"
+        bis_skin_checked="1"
+      >
+        {player1.alias}</a
+      >
+    </div>
+  </td>
+
+  <td className="smartphone-only logo-only" title="{player1.alias}">
+    <img
+      alt={player1.alias}
+      className="logo"
+      title={player1.alias}
+      src={module.getPlayerFlag(player1)}
+    />
+  </td>
+  <td
+    className="team2 text-ellipsis gtSmartphone-only underlined"
+    title={player2.alias}
+  >
+    <div className="flagAlign" bis_skin_checked="1">
+      <img
+        alt={player2.country}
+        src={module.getPlayerFlag(player2)}
+        className="flag flag"
+        title={player2.country}
+      />
+      <a
+        href="/player/${player2.alias}"
+        className="text-ellipsis"
+        bis_skin_checked="1"
+      >
+        {player2.alias}</a
+      >
+    </div>
+  </td>
+  <td className="smartphone-only logo-only" title="{player2.alias}">
+    <img
+      alt={player2.alias}
+      className="logo"
+      title={player2.alias}
+      src={module.getPlayerFlag(player2)}
+    />
+  </td>
+  <td
+    className="event text-ellipsis underlined"
+    title={event.name}
+  >
+    <a
+      href={`/event/${event.id}`}
+      className=""
+      bis_skin_checked="1"
+    >
+      {event.name}</a>
+  </td>
+  <td className="map bold">
+    <div className="dynamic-map-name-short" bis_skin_checked="1">Bo3</div>
+    <div className="dynamic-map-name-full" bis_skin_checked="1">Bo5</div>
+  </td>
+
+  <td className="result">
+    <span className= {match.player1Score>= match.player2Score ? "won" : "lost"}> {match.player1Score}</span>
+    - <span className={match.player2Score>= match.player1Score ? "won" : "lost"}>  {match.player2Score}</span>
+  </td>
+</tr>

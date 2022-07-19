@@ -4,7 +4,7 @@ import * as module from "../infoFunctions";
 import { useSearchParams } from "react-router-dom";
 import { getCountryFlag } from "./coutnryflags.mjs";
 
-const MatchTable = ({ Info }) => {
+const MatchTable = ({ Info, matchId }) => {
   const [Render, setRender] = useState([]);
   const [time, setTime] = useState(Date.now());
 
@@ -24,8 +24,6 @@ const MatchTable = ({ Info }) => {
   }
 
   useEffect(() => {
-    const queryParams = new URLSearchParams(window.location.search);
-    const matchId = queryParams.get("matches");
     const match = Info.Matches.filter((result) => {
       return result.id == matchId;
     })[0];
@@ -78,6 +76,20 @@ const MatchTable = ({ Info }) => {
                   {matchDetails.player1.alias}
                 </div>
               </a>
+              {match.live == true ? (
+                <div
+                  className={
+                    match.player1Score >= match.player2Score &&
+                    match.completed == true
+                      ? "won"
+                      : "lost"
+                  }
+                >
+                  {match.player1Score}
+                </div>
+              ) : (
+                ""
+              )}
             </div>
           </div>
           <div className="timeAndEvent" bis_skin_checked="1">
@@ -101,7 +113,7 @@ const MatchTable = ({ Info }) => {
             </div>
             <div className="event text-ellipsis" bis_skin_checked="1">
               <a
-                href={`/event/${event.Id}`}
+                href={`/event/${event.id}`}
                 title={event.name}
                 bis_skin_checked="1"
               >
@@ -113,13 +125,13 @@ const MatchTable = ({ Info }) => {
             </div>
             <div
               className={`countdown ${
-                match.live == true && match.concluded == false
+                match.live == true && match.completed == false
                   ? "countdown-live"
                   : ""
               }`}
               bis_skin_checked="1"
             >
-              {match.concluded == true
+              {match.completed == true
                 ? "Match over"
                 : match.live == true
                 ? "LIVE"
@@ -153,6 +165,20 @@ const MatchTable = ({ Info }) => {
                   {matchDetails.player2.alias}
                 </div>
               </a>
+              {match.live == true ? (
+                <div
+                  className={
+                    match.player1Score >= match.player2Score &&
+                    match.completed == true
+                      ? "won"
+                      : "lost"
+                  }
+                >
+                  {match.player2Score}
+                </div>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>,

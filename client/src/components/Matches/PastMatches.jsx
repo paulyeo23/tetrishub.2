@@ -25,9 +25,13 @@ const PastMatches = ({ Info, player, matchDate }) => {
       let daysAgo = new Date(match.dateTime) / day;
       let scores = {
         player:
-          player.id == player1Id ? match.player1Score : match.player2Score,
+          player.id == match.player1Id
+            ? match.player1Score
+            : match.player2Score,
         opponent:
-          player.id == player2Id ? match.player1Score : match.player2Score,
+          player.id == match.player2Id
+            ? match.player1Score
+            : match.player2Score,
       };
 
       let opponent = {
@@ -39,51 +43,54 @@ const PastMatches = ({ Info, player, matchDate }) => {
       };
       Cells.push(
         <tr className="">
-          <td className="past-matches-team text-ellipsis">
-            <div className="past-matches-name-time" bis_skin_checked="1">
-              <div
-                className="past-matches-cell past-matches-teamname text-ellipsis"
+          <a href={`/match/${match.id}`}>
+            <td className="past-matches-team text-ellipsis">
+              <div className="past-matches-name-time" bis_skin_checked="1">
+                <div
+                  className="past-matches-cell past-matches-teamname text-ellipsis"
+                  bis_skin_checked="1"
+                >
+                  <span className="text-ellipsis">
+                    <img
+                      alt={opponent.player.country}
+                      src={module.getPlayerFlag(opponent.player)}
+                      className="flag flag"
+                      title={opponent.player.country}
+                    />
+                    {opponent.player.alias}
+                    <a
+                      href={`/player/${opponent.player.id}`}
+                      className="text-ellipsis"
+                      bis_skin_checked="1"
+                    ></a>
+                  </span>
+                </div>
+                <div
+                  className="past-matches-cell past-matches-time-ago"
+                  bis_skin_checked="1"
+                >
+                  {daysAgo <= 1
+                    ? "Less than a day ago"
+                    : daysAgo > 1 && daysAgo <= 14
+                    ? "A week ago"
+                    : daysAgo > 14 && daysAgo <= 30
+                    ? `${Math.floor(daysAgo / 7)} weeks ago`
+                    : "More than 1 month ago"}
+                </div>
+              </div>
+            </td>
+            <td className="past-matches-score">
+              <a
+                href={`/match/`}
+                className={`past-matches-cell ${
+                  scores.player < scores.opponent ? "lost" : ""
+                }`}
                 bis_skin_checked="1"
               >
-                <span className="text-ellipsis">
-                  <img
-                    alt={opponent.player.country}
-                    src={module.getPlayerFlag(opponent.player)}
-                    className="flag flag"
-                    title={opponent.player.country}
-                  />
-                  <a
-                    href={`/player/${opponent.player.id}`}
-                    className="text-ellipsis"
-                    bis_skin_checked="1"
-                  ></a>
-                </span>
-              </div>
-              <div
-                className="past-matches-cell past-matches-time-ago"
-                bis_skin_checked="1"
-              >
-                {daysAgo <= 1
-                  ? "Less than a day ago"
-                  : daysAgo > 1 && daysAgo <= 14
-                  ? "A week ago"
-                  : daysAgo > 14 && daysAgo <= 30
-                  ? `${Math.floor(daysAgo / 7)} weeks ago`
-                  : "More than 1 month ago"}
-              </div>
-            </div>
-          </td>
-          <td className="past-matches-score">
-            <a
-              href="/matches/2357321/websterz-vs-rare-atom-esl-challenger-melbourne-2022-europe-open-qualifier-2"
-              className={`past-matches-cell ${
-                scores.player < scores.opponent ? "lost" : ""
-              }`}
-              bis_skin_checked="1"
-            >
-              {scores.player} - {scores.opponent}
-            </a>
-          </td>
+                {scores.player} - {scores.opponent}
+              </a>
+            </td>
+          </a>
         </tr>,
       );
     });
@@ -91,6 +98,29 @@ const PastMatches = ({ Info, player, matchDate }) => {
       <div className="past-matches-box text-ellipsis">
         <div className="past-matches-headline">
           <div class="past-matches-teamname text-ellipsis" bis_skin_checked="1">
+            <div class="past-matches-headline" bis_skin_checked="1">
+              <div
+                class="past-matches-teamname text-ellipsis"
+                bis_skin_checked="1"
+              >
+                <img
+                  alt={player.country}
+                  src="/img/static/flags/30x20/UA.gif"
+                  class="flag flag"
+                  title={player.country}
+                />
+                <a
+                  href="/team/4608/natus-vincere"
+                  data-link-tracking-page="Matchpage"
+                  data-link-tracking-column="[Main content]"
+                  data-link-tracking-destination="Click on Team name [Past matches] [text]"
+                  bis_skin_checked="1"
+                >
+                  {player.alias}
+                </a>
+              </div>
+            </div>
+            <div className="past-matches-scroll-area ">{Cells}</div>
             <img
               alt={player.country}
               src={module.getPlayerFlag(player)}

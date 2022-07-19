@@ -2442,6 +2442,7 @@ module.exports = {
         alias: "JONAS",
         country: "USA",
         elo: 1380,
+        userId: 1,
       },
       {
         alias: "JONO103",

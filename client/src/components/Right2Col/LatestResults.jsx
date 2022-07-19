@@ -8,7 +8,7 @@ const LatestResults = ({ Info }) => {
   let recentResults = Info.Matches.filter((match) => {
     return match.completed == true;
   }).sort((a, b) => {
-    return b.dateTime - a.dateTime;
+    return new Date(b.dateTime) - new Date(a.dateTime);
   });
   for (let i = 0; i < limit; i++) {
     let match = recentResults[i];
@@ -21,7 +21,7 @@ const LatestResults = ({ Info }) => {
     })[0];
     tempRender.push(
       <a
-        href={`/matches/${match.id}`}
+        href={`/match/${match.id}`}
         className="col-box a-reset"
         bis_skin_checked="1"
       >

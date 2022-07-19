@@ -15,17 +15,15 @@ const AllMatches = () => {
   }, []);
 
   useEffect(() => {
-    console.log(Info);
     if (Info != undefined) {
       setRender(
         <div className="newMatches">
-          <EventTable Info={Info} />
+          {/* <EventTable Info={Info} /> */}
           <MatchCells info={Info} />
         </div>,
       );
     }
   }, [Info]);
-  console.log(Render);
   return Render;
 };
 

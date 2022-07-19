@@ -373,6 +373,13 @@ module.exports = {
         unique: true,
         type: Sequelize.INTEGER,
       },
+      ownerId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+      },
       editionId: {
         type: Sequelize.INTEGER,
         references: {
@@ -1011,14 +1018,6 @@ module.exports = {
           key: "id",
         },
       },
-      userId: {
-        allowNull: false,
-        type: Sequelize.INTEGER,
-        references: {
-          model: "Users",
-          key: "id",
-        },
-      },
       post: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -1036,7 +1035,6 @@ module.exports = {
         defaultValue: false,
       },
       details: {
-        allowNull: false,
         type: Sequelize.STRING,
       },
       createdAt: {

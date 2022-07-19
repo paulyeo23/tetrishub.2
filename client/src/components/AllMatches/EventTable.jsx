@@ -63,13 +63,13 @@ const EventTable = ({ Info }) => {
           startOfWeek.getDate() < 10
             ? `0${startOfWeek.getDate()}`
             : startOfWeek.getDate()
-        } ${startOfWeek.getMonth()}`}</span>
+        }/${startOfWeek.getMonth()}`}</span>
         -
         <span data-time-format="MMM d">{`${
           endOfWeek.getDate() < 10
             ? `0${endOfWeek.getDate()}`
             : endOfWeek.getDate()
-        } ${endOfWeek.getMonth()}`}</span>
+        }/${endOfWeek.getMonth()}`}</span>
       </th>,
     ];
 

@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Container, Row, Alert, Button, Col } from "react-bootstrap";
 import Register from "./components/Register/Register";
 import Upload from "./components/Register/UploadPicture";
-import OngoingEvents from "./components/AllEvents/OngoingEvents";
 import MatchPage from "./components/Matches/MatchPage";
 import CreateEventPage from "./components/CreateEvent/CreateEvent";
 
@@ -22,6 +21,10 @@ import LeftCol from "./components/LeftCol/LeftCol";
 import AllMatches from "./components/AllMatches/AllMatches";
 import AllResultsPage from "./components/AllResults/AllResultsPage";
 import NewEventCells from "./components/AllEvents/NewEventCells";
+import ThreadHead from "./components/Threads/ThreadHead";
+import ThreadsPage from "./components/Threads/ThreadPage";
+import EventPage from "./components/Event/EventPage";
+import CreateThread from "./components/Thread/CreateThread";
 // import ResultCells from "./components/AllResults/AllResults";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -41,21 +44,29 @@ root.render(
         />
       </head>
       <body class="cols1101" style={{ backgroundColor: "black" }}>
-        <NavBar />
+        <div className="navbar showSmall">
+          <NavBar />
+        </div>
         <div className="widthControl">
           <div className="bgPadding">
             <div className="colCon">
               <div className="contentCol">
                 <Router>
                   <Routes>
+                    <Route path="/" element={<ForumPage />} />
+                  </Routes>
+                  <Routes>
                     <Route path="/matches" element={<AllMatches />} />
-                    <Route path="/match" element={<MatchPage />} />
+                    <Route path="/match/:matchId" element={<MatchPage />} />
                   </Routes>
                   <Routes>
                     <Route path="/results" element={<AllResultsPage />} />
                   </Routes>
                   <Routes>
                     <Route path="/events" element={<NewEventCells />} />
+                  </Routes>
+                  <Routes>
+                    <Route path="/event/:eventId" element={<EventPage />} />
                   </Routes>
                   <Routes>
                     <Route path="/createEvent" element={<CreateEventPage />} />
@@ -75,11 +86,14 @@ root.render(
                   <Routes>
                     <Route
                       path="/forums/threads/:threadName"
-                      element={<ForumThread />}
+                      element={<ThreadsPage />}
                     />
                   </Routes>
                   <Routes>
                     <Route path="/register" element={<Register />} />
+                  </Routes>
+                  <Routes>
+                    <Route path="/create-thread" element={<CreateThread />} />
                   </Routes>
                 </Router>
               </div>

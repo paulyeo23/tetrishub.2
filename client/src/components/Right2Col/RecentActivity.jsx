@@ -13,7 +13,6 @@ const RecentActivity = ({ Info }) => {
     return b.createdAt - a.createdAt;
   });
 
-
   for (
     let i = 0;
     i < (limit > allActivity.length ? allActivity.length : limit);
@@ -31,7 +30,7 @@ const RecentActivity = ({ Info }) => {
     });
     tempRender.push(
       <a
-        href={`/forums/thread/${thread.id}`}
+        href={`/forums/threads/${thread.title}`}
         className="col-box activity a-reset matchCat "
         bis_skin_checked="1"
       >
@@ -56,7 +55,7 @@ const RecentActivity = ({ Info }) => {
       </div>
       {tempRender}
       <a
-        href="/forums/create-thread"
+        href="/create-thread"
         className="button postnewbutton no-promode"
         bis_skin_checked="1"
       >

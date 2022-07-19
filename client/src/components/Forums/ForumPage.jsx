@@ -3,9 +3,8 @@ import { Container, Row, Alert, Button, Col } from "react-bootstrap";
 import axios from "axios";
 import * as module from "../infoFunctions";
 import { useSearchParams } from "react-router-dom";
-import Rules from "./Rules";
 import SubForums from "./Subs";
-
+import Rules from "./Rules";
 const ForumPage = () => {
   const [Render, setRender] = useState([]);
   const [Info, setInfo] = useState();
@@ -13,8 +12,6 @@ const ForumPage = () => {
     axios("http://localhost:3001/").then((response) => {
       setInfo(response.data);
     });
-
-
   }, []);
 
   useEffect(() => {

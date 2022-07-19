@@ -1,4 +1,3 @@
-
 import db from "../models/index.mjs";
 
 export const login = (username, password) => {
@@ -10,22 +9,31 @@ export const login = (username, password) => {
   });
 };
 
-export const register = async (username, password) => {
-  let accepted;
-  let user = await db.Users.findOne({
+export const register = async (username, password, country) => {
+  let status;
+  await db.Users.findAll({
     where: {
       username: username,
     },
+  }).then((user) => {
+    if (user.length == 0) {
+      db.Users.create({
+        username: username,
+        displayName: username,
+        password: password,
+        country: country,
+      }).then((result) => {
+        db.PlayerDetails.create({
+          alias: username,
+          elo: 0,
+          userId: result.id,
+        });
+      });
+      status = { accepted: true };
+    } else {
+      status = { accepted: false };
+    }
   });
-  if ((user.length = 0)) {
-    db.Users.create({
-      username: username,
-      password: password,
-    });
-    accepted = true;
-  } else {
-    accepted = false;
-  }
-  return accepted;
-};
 
+  return status;
+};

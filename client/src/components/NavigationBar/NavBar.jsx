@@ -1,7 +1,12 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import Login from "./Login";
+import Cookies from "universal-cookie";
 
 export const NavBar = ({ user }) => {
+  function logOut() {
+    Cookies.remove("username");
+    window.location.reload();
+  }
   return (
     <div className="navbar" bis_skin_checked="1">
       <nav className="navcon">
@@ -117,27 +122,35 @@ export const NavBar = ({ user }) => {
           <div className="arrow2" bis_skin_checked="1"></div>
         </div>
         <div className="navborder" bis_skin_checked="1"></div>
-        {user == undefined ? (
+        {document.cookie == "" ? (
           <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
-              Admin Control
+              Sign in
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
               <Login />
-              {/* <Dropdown.Item href="/register">Register</Dropdown.Item> */}
+              <Dropdown.Item href="/register">Register</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         ) : (
           <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
-              Login
+              {document.cookie.split("=")[1]}
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
               <Dropdown.Item href={`/Profile/${user}`}>Profile</Dropdown.Item>
               <Dropdown.Item href="/Tournaments">Tournaments</Dropdown.Item>
-              <Dropdown.Item href="/logout">Log Out</Dropdown.Item>
+              <Dropdown.Item
+                href="/"
+                onclick={(e) => {
+                  Cookies.remove("username");
+                  window.location.reload();
+                }}
+              >
+                Log Out
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         )}

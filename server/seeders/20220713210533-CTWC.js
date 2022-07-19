@@ -42,9 +42,10 @@ module.exports = {
     // ]);
     // await queryInterface.bulkInsert("Seeders", [
     //   {
-    //     name: "CTWC 2022",
-    //     startDate: "2022-08-20 12:00:00",
-    //     endDate: "2010-09-21 12:00:00",
+    //     description: "CTWC 2022",
+    //     ongoing: true,
+    //     eventId: 3,
+    //     tierLimit: 1,
     //     ongoing: false,
     //     concluded: false,
     //     permissionId: 2,

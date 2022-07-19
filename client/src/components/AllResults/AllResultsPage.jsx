@@ -65,13 +65,12 @@ const AllResultsPage = () => {
         dates[key].push(match);
       });
 
-      console.log(dates);
       for (let date in dates) {
         let cells = [];
         dates[date].forEach((match) => {
           cells.push(
             <div className="result-con">
-              <a href={`http://localhost:3001/match/${match.id}`}>
+              <a href={`http://localhost:3000/match/${match.id}`}>
                 <div className="result">
                   <table>
                     <tbody>

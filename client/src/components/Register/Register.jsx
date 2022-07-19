@@ -20,6 +20,8 @@ const Register = ({ setUsername }) => {
     confirmEmailError: true,
   });
 
+  const navigate = useNavigate();
+
   function updateErrors() {
     setError({
       usernameError: loginDetails.username == undefined,
@@ -43,14 +45,15 @@ const Register = ({ setUsername }) => {
         })
         .then((response) => {
           response.data.accepted == true
-            ? alert("Accepted")
-            : alert("Email is in use");
+            ? navigate("/forums")
+            : alert("Username or Email is in use");
         })
         .catch((err) => console.log(err));
     }
   }
 
   function details(e) {
+    console.log(loginDetails);
     const { value, name } = e.target;
     setLoginDetails((prev) => ({
       ...prev,

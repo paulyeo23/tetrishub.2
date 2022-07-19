@@ -5,14 +5,17 @@ import * as module from "../infoFunctions";
 import { useSearchParams } from "react-router-dom";
 import Rules from "../Forums/Rules";
 import SubForums from "../Forums/Subs";
+import { getCountryFlag } from "../Matches/coutnryflags.mjs";
 
 const ThreadHead = ({ Info, threadId }) => {
   const [Render, setRender] = useState([]);
 
-  function dateToString(date) {
-    let date = new Date(date).toISOString().split(" ");
-    let time = date[1].slice(0, 5);
-    return { date: date[0], time: time };
+  async function dateToString(date) {
+    console.log(date);
+    let datE = new Date(date).toISOString().split(" ");
+    let time = datE[1].slice(0, 5);
+    console.log(time);
+    return { date: Date[0], time: time };
   }
 
   useEffect(() => {
@@ -49,7 +52,7 @@ const ThreadHead = ({ Info, threadId }) => {
             &gt;
             <span class="standard-headline">
               <a
-                href="/forums/threads/2658753/stewie-in-shambles"
+                href=""
                 class="a-reset text-ellipsis"
                 bis_skin_checked="1"
               >
@@ -65,7 +68,7 @@ const ThreadHead = ({ Info, threadId }) => {
               <div class="spacer" bis_skin_checked="1"></div>
               <img
                 alt={user.country}
-                src={`"/img/static/flags/WorldFlag/${user.country}`}
+                src={getCountryFlag(user.country)}
                 class="flag"
                 title={user.country}
               />
@@ -100,8 +103,9 @@ const ThreadHead = ({ Info, threadId }) => {
           </div>
         </div>,
       );
+      setRender(ThreadHead);
     }
-  }, [Info]);
+  }, []);
   return Render;
 };
 

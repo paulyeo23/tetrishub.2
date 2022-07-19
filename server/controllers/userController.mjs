@@ -1,35 +1,28 @@
 import { Info } from "../service/info.mjs";
 import { register, login } from "../service/userTable.mjs";
+import cookieParser from "cookie-parser";
 
-export default function initUserController(db) {
+export default function initUserController() {
   const Register = async (request, response) => {
-    let message = {};
-    const username = request.body.user;
-    const password = request.body.password;
-    Info().then((info) => {
-      info.Users.filter((user) => {
-        return user.username == username;
-      }).length == 0
-        ? register(username, password).then((result) => {
-            response.send({ accepted: true });
-          })
-        : response.send({ accepted: false, reason: "Username is taken" });
-    });
+    const loginDetails = request.body.loginDetails;
+    const username = loginDetails.username;
+    const password = loginDetails.password;
+    const country = loginDetails.country;
+    register(username, password, country).then((result) =>
+      response.send(result),
+    );
   };
 
-  const Login = async (request, response) => {};
-
-  const index = async (request, response) => {
-    try {
-      Info(db).then((result) => response.send(result));
-    } catch (error) {
-      console.log(error);
-    }
+  const Login = async (request, response) => {
+    console.log(request.body);
+    const loginDetails = request.body.loginDetails;
+    const username = loginDetails.username;
+    const password = loginDetails.password;
+    login(username, password).then((result) => response.send(username));
   };
 
   return {
-    index,
-    register,
-    login,
+    Register,
+    Login,
   };
 }
