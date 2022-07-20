@@ -105,7 +105,7 @@ const PastMatches = ({ Info, player, matchDate }) => {
               >
                 <img
                   alt={player.country}
-                  src="/img/static/flags/30x20/UA.gif"
+                  src={getCountryFlag(player.country)}
                   class="flag flag"
                   title={player.country}
                 />

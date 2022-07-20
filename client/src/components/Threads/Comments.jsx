@@ -7,9 +7,9 @@ import { getCountryFlag } from "../Matches/coutnryflags.mjs";
 
 const Comments = ({ Info, threadId }) => {
   const [Render, setRender] = useState();
-  let tempRender = [];
 
   useEffect(() => {
+    let tempRender = [];
     async function dateToString(date) {
       console.log(date);
       let datE = new Date(date).toISOString().split(" ");
