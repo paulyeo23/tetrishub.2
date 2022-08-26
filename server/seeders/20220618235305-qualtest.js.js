@@ -155,30 +155,29 @@ const players = [
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.sequelize
-      .query(`SELECT * FROM "Events" WHERE (name = 'CTM Masters Jul-22')`)
-      .then((event) => {
-        queryInterface.bulkInsert("Seeders", [
-          {
-            eventId: event[0][0].id,
-            tierLimit: 1,
-            description: "CTM Masters July-22",
-            averageOf: 2,
-            seedingMethod: 2,
-          },
-        ]);
-      });
-
-    let insertlist = [];
-    players.forEach((player) => {
-      insertlist.push({
-        seederId: 1,
-        playerId: player.playerId,
-        score: Number(player.score.split(",").join("")),
-        videoLink: player.videolink,
-      });
-    });
-    await queryInterface.bulkInsert("QualifyingScores", insertlist);
+    // await queryInterface.sequelize
+    //   .query(`SELECT * FROM "Events" WHERE (name = 'CTM Masters Jul-22')`)
+    //   .then((event) => {
+    //     queryInterface.bulkInsert("Seeders", [
+    //       {
+    //         eventId: event[0][0].id,
+    //         tierLimit: 1,
+    //         description: "CTM Masters July-22",
+    //         averageOf: 2,
+    //         seedingMethod: 2,
+    //       },
+    //     ]);
+    //   });
+    // let insertlist = [];
+    // players.forEach((player) => {
+    //   insertlist.push({
+    //     seederId: 1,
+    //     playerId: player.playerId,
+    //     score: Number(player.score.split(",").join("")),
+    //     videoLink: player.videolink,
+    //   });
+    // });
+    // await queryInterface.bulkInsert("QualifyingScores", insertlist);
   },
 
   async down(queryInterface, Sequelize) {

@@ -1,7 +1,7 @@
 import {
   addCommentToEvent,
   addCommentToThread,
-} from "../service/commentsTable.mjs";
+} from "../service/forums/commentsTable.mjs";
 
 export function initCommentsController() {
   const replyToThread = (request, response) => {

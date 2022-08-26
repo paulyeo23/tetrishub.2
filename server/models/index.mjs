@@ -1,4 +1,5 @@
 import sequelizePackage from "sequelize";
+import { Op } from "sequelize";
 import allConfig from "../config/config.js";
 
 import initBracketsModel from "./BracketsModel.mjs";
@@ -64,7 +65,12 @@ db.Comments = initCommentsModel(sequelize, Sequelize.DataTypes);
 db.Forums = initForumsModel(sequelize, Sequelize.DataTypes);
 db.Threads = initThreadsModel(sequelize, Sequelize.DataTypes);
 
+db.Matches.belongsTo(db.PlayerDetails, { foreignKey: "player1Id" });
+
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
+
+db.Op = Op;
 
 export default db;

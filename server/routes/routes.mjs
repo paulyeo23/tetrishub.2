@@ -5,6 +5,7 @@ import initUserController from "../controllers/userController.mjs";
 import { initCommentsController } from "../controllers/Commentscontroller.mjs";
 
 import { initThreadsController } from "../controllers/threadsController.mjs";
+import { initSideTablesController } from "../controllers/sideTables/sideTablesController.mjs";
 
 export default function routes(app) {
   const allMatchesController = initAllMatchesController();
@@ -19,6 +20,13 @@ export default function routes(app) {
 
   const threadController = initThreadsController();
   app.post("/createThread", threadController.startNewThread);
+
+  const sideTablesController = initSideTablesController();
+  app.get("/leftsidetable", sideTablesController.leftSideTables);
+  app.get("/rightsidetable", sideTablesController.rightSideTables);
+
+
+
   // function (request, response) {
   // let data = request.body;
   // let username = data.username;
