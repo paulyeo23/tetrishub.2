@@ -1,4 +1,5 @@
 import sequelizePackage from "sequelize";
+import { Op } from "sequelize";
 import allConfig from "../config/config.js";
 
 import initBracketsModel from "./BracketsModel.mjs";
@@ -64,7 +65,32 @@ db.Comments = initCommentsModel(sequelize, Sequelize.DataTypes);
 db.Forums = initForumsModel(sequelize, Sequelize.DataTypes);
 db.Threads = initThreadsModel(sequelize, Sequelize.DataTypes);
 
+// db.PlayerDetails.hasMany(db.Matches, {
+//   as: "player1",
+//   foreignKey: "player1Id",
+// });
+// db.PlayerDetails.hasMany(db.Matches, {
+//   as: "player2",
+//   foreignKey: "player2Id",
+// });
+
+db.Matches.belongsTo(db.PlayerDetails, {
+  as: "player1",
+  foreignKey: "player1Id",
+});
+db.Matches.belongsTo(db.PlayerDetails, {
+  as: "player2",
+  foreignKey: "player2Id",
+});
+
+db.Comments.belongsTo(db.Threads, {
+  as: "thread",
+  foreignKey: "threadId",
+});
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
+
+db.Op = Op;
 
 export default db;

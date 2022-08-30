@@ -13,12 +13,8 @@ const LatestResults = ({ Info }) => {
   for (let i = 0; i < limit; i++) {
     let match = recentResults[i];
 
-    let player1 = Info.PlayerDetails.filter((playerdetail) => {
-      return playerdetail.id == match.player1Id;
-    })[0];
-    let player2 = Info.PlayerDetails.filter((playerdetail) => {
-      return playerdetail.id == match.player2Id;
-    })[0];
+    let player1 = Info.RecentMatches.player1;
+    let player2 = Info.RecentMatches.player2;
     tempRender.push(
       <a
         href={`/match/${match.id}`}

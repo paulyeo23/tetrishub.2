@@ -8,7 +8,7 @@ const Right2Col = () => {
   const [Render, setRender] = useState([]);
   const [Info, setInfo] = useState();
   useEffect(() => {
-    axios("http://localhost:3001/").then((response) => {
+    axios("http://localhost:3001/rightsidetable").then((response) => {
       setInfo(response.data);
     });
 
